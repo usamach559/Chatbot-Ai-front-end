@@ -749,9 +749,9 @@
 }
 
 .wizrd-section-main-para {
-    font-family: 'Poppins-Bold';
+    font-family: 'Poppins-Regular';
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 24px;
     text-align: left;
     color: #007AFF;
@@ -774,12 +774,12 @@
 }
 
 .hr-text {
-    font-family: 'Poppins-Bold';
+    font-family: 'Poppins-regular';
     font-size: 10px;
     font-weight: 500;
     line-height: 26px;
     text-align: center;
-
+    color: #3A3886 !important;
 }
 
 .input-wrapper-wizard {
@@ -1813,9 +1813,9 @@ tbody tr:last-of-type td:last-child {
 }
 
 .traning-step-one-tabs-headings {
-    font-family: 'Poppins-Bold';
-    font-size: 14px;
-    font-weight: 600;
+    font-family: 'Poppins-Regular';
+    font-size: 13px;
+    font-weight: 700;
     line-height: 50px;
     letter-spacing: 0.6666666865348816px;
     text-align: center;
@@ -2374,4 +2374,11 @@ text-align: center;
 }
 .upload-text-vision{
     color: #3A3886;
+}
+.voice-clone-heading-para{
+    font-family: 'Poppins-Regular';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: left;
 }
