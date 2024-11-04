@@ -1271,26 +1271,26 @@
 .voiceover-sectoin-select {
     border-radius: 24px;
     padding: 10px;
-    font-family: 'Poppins-bold';
+    font-family: 'Poppins-Regular';
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 24px;
     text-align: left;
 }
 
 .voiceover-sectoin-label {
-    font-family: 'Poppins-bold';
+    font-family: 'Poppins-Regular';
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 24px;
     text-align: left;
 
 }
 
 .voiceover-section-second-heading {
-    font-family: 'Poppins-bold';
+    font-family: 'Poppins-Regular';
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 24px;
     text-align: left;
 }
