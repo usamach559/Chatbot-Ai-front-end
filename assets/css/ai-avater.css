@@ -762,6 +762,8 @@
     padding: 30px 10px;
     border: 1px solid #FFFFFF;
     border-radius: 24px;
+    resize: none;           /* Prevent resizing */
+    overflow: hidden;       /* Hide overflow content */
 
 }
 
