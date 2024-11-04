@@ -1011,6 +1011,16 @@
     line-height: 22px;
     text-align: left;
 }
+.support-request-table-head {
+    background-color: rgba(130, 128, 255, 1) !important;
+    color: white !important;
+    font-family: 'Poppins-Regular';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    
+}
 
 /* Grammar document style */
 .grammar-document {
@@ -1049,9 +1059,17 @@
 }
 
 .document-date {
-    font-family: 'Poppins-Bold';
+    font-family: 'Poppins-Regular';
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+
+}
+.support-request-table-date {
+    font-family: 'Poppins-Regular';
+    font-size: 14px;
+    font-weight: 700;
     line-height: 22px;
     text-align: left;
 
@@ -1860,6 +1878,7 @@ tbody tr:last-of-type td:last-child {
     background-color: transparent !important;
     padding: 10px;
     border-radius: 24px;
+    padding-right: 50px;
     border: 1px solid white;
 }
 
