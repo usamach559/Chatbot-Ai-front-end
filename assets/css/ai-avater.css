@@ -754,7 +754,7 @@ textarea{
 .wizrd-section-main-para {
     font-family: 'Poppins-Regular';
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 24px;
     text-align: left;
     color: #007AFF;
@@ -900,7 +900,8 @@ textarea{
 
 .file-uploadcontainer {
     border: 1px solid white;
-    height: 102px;
+    /* height: 102px; */
+    padding: 10px;
     border-radius: 24px;
 }
 
@@ -911,7 +912,7 @@ textarea{
     line-height: 25px;
     text-align: center;
     color: #3A3886;
-    width: 45%;
+    width: 50%;
     margin: auto;
 }
 
