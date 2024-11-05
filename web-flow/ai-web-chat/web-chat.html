@@ -12,7 +12,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="stylesheet" href="../../assets/css/style.css" />
     <link rel="stylesheet" href="../../assets/css/ai-avater.css" />
-    <link rel="stylesheet" href="../../assets/css/ai-avater.css" />
     <style>
         .input-container {
             position: relative;
@@ -60,11 +59,11 @@
 
         @media (max-width:500px) {
             .main-container-messenger {
-            padding-left: 50px;
-            padding-right: 100px;
-            height: 40px;
-            box-sizing: border-box;
-        }
+                padding-left: 50px;
+                padding-right: 100px;
+                height: 40px;
+                box-sizing: border-box;
+            }
 
             .input-icon-end:nth-child(3) {
                 right: 70px;
@@ -347,21 +346,23 @@
             </div>
         </nav>
         <div class="container px-3">
-            <div class="row mb-5">
-                <div class="d-flex justify-content-between mt-5">
+            <div class="row mb-5 d-flex justify-content-between mt-5">
+                <div class="col-lg-6">
                     <div class="dashboard-heading">
                         AI Web Chat
                     </div>
+                </div>
 
+                <div class="d-flex justify-content-end  col-lg-6">
                     <div class="button-container">
                         <button class="btn dashboard-btn-first">My Documents</button>
-                        <button class="btn dashboard-btn-second">
+                        <button class="btn dashboard-btn-second ms-3">
                             <img src="../../assets/svg/Plus (1) 1.svg" alt="" />
                             Add New
                         </button>
                     </div>
                 </div>
-                <div class="main-heading-para mt-5">
+                <div class="main-heading-para mt-4 ms-3">
                     Simply upload a PDF, find specific information. Extract key insights or summarize the entire
                     document.
                 </div>
