@@ -296,17 +296,20 @@
             </div>
         </nav>
         <div class="container px-3">
-            <div class="row">
-                <div class=" d-flex justify-content-between  mt-5">
+            <div class="row  d-flex justify-content-between  mt-5">
+                <div class="col-lg-6">
                     <div class="dashboard-heading">
                         AI Photo Studio
                     </div>
 
+                </div>
+
+                <div class=" d-flex justify-content-end col-lg-6 ">
                     <div class="button-container">
                         <button class="btn dashboard-btn-first">
                             My Documents
                         </button>
-                        <button class="btn dashboard-btn-second">
+                        <button class="btn dashboard-btn-second ms-3">
                             <img src="../../assets/svg/Plus (1) 1.svg" alt="">
                             Add New
                         </button>
@@ -317,7 +320,7 @@
                 </div>
             </div>
         </div>
-        <div class="container px-3 d-flex justify-content-center">
+        <div class="container px-3 d-flex justify-content-center mb-5">
             <div class="row photo-studio-section d-flex justify-content-center ">
                 <div class="col-lg-6 photo-studio-card ">
                     <label for="" class="wizrd-section-main-para mt-3 mb-3">Topic</label>
@@ -325,16 +328,21 @@
                         <div class="svg-container d-flex justify-content-center">
                             <!-- Hidden file input -->
                             <input type="file" id="file-upload" style="display: none;" />
-                        
+
                             <!-- Clickable SVG triggering the file input -->
                             <label for="file-upload" class="file-upload-label">
-                                <svg class="mt-2" width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M23 21.5H3C2.46957 21.5 1.96086 21.2893 1.58579 20.9142C1.21071 20.5391 1 20.0304 1 19.5V5.5C1 4.96957 1.21071 4.46086 1.58579 4.08579C1.96086 3.71071 2.46957 3.5 3 3.5H7L9 0.5H17L19 3.5H23C23.5304 3.5 24.0391 3.71071 24.4142 4.08579C24.7893 4.46086 25 4.96957 25 5.5V19.5C25 20.0304 24.7893 20.5391 24.4142 20.9142C24.0391 21.2893 23.5304 21.5 23 21.5Z" stroke="#8280FF" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M13 16.5C15.4853 16.5 17.5 14.4853 17.5 12C17.5 9.51472 15.4853 7.5 13 7.5C10.5147 7.5 8.5 9.51472 8.5 12C8.5 14.4853 10.5147 16.5 13 16.5Z" stroke="#8280FF" stroke-linecap="round" stroke-linejoin="round"/>
+                                <svg class="mt-2" width="26" height="22" viewBox="0 0 26 22" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M23 21.5H3C2.46957 21.5 1.96086 21.2893 1.58579 20.9142C1.21071 20.5391 1 20.0304 1 19.5V5.5C1 4.96957 1.21071 4.46086 1.58579 4.08579C1.96086 3.71071 2.46957 3.5 3 3.5H7L9 0.5H17L19 3.5H23C23.5304 3.5 24.0391 3.71071 24.4142 4.08579C24.7893 4.46086 25 4.96957 25 5.5V19.5C25 20.0304 24.7893 20.5391 24.4142 20.9142C24.0391 21.2893 23.5304 21.5 23 21.5Z"
+                                        stroke="#8280FF" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path
+                                        d="M13 16.5C15.4853 16.5 17.5 14.4853 17.5 12C17.5 9.51472 15.4853 7.5 13 7.5C10.5147 7.5 8.5 9.51472 8.5 12C8.5 14.4853 10.5147 16.5 13 16.5Z"
+                                        stroke="#8280FF" stroke-linecap="round" stroke-linejoin="round" />
                                 </svg>
                             </label>
                         </div>
-                        
+
                         <div class="para-container">
                             <p class="wizard-upload-text">
                                 Click here to browse your files.or <a href="">click here</a> to browse your files
@@ -342,23 +350,27 @@
                         </div>
 
                     </div>
-                    <label for="" class="wizrd-section-main-para mt-3 mb-3">Choose Action</label>
-                    <br> <select class="custom-select form-select">
-                        <option selected>Enter Here.</option>
-                        <option value="1">Option 1</option>
-                        <option value="2">Option 2</option>
-                        <option value="3">Option 3</option>
-                    </select>
-                    <label for="" class="wizrd-section-main-para mt-3 mb-3">Choose Action</label>
-                    <br>
-                    <div class="container ">
+                    <div>
+                        <label for="" class="wizrd-section-main-para mt-3 mb-3">Choose Action</label>
+                        <br>
+                        <select class="custom-select-photo-studio custom-select form-select">
+                            <option selected>Enter Here.</option>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                        </select>
+                    </div>
+                    <div >
+                        <label for="" class="wizrd-section-main-para mt-3 mb-3">Choose Action</label>
+                        <br>
                         <div class="custom-textarea-wrapper">
-                            <textarea class="custom-textarea form-control" placeholder="Enter your text here..." cols="50" rows="3"></textarea>
+                            <textarea class="custom-textarea custom-select-photo-studio form-control"
+                                placeholder="Enter Here" cols="50" rows="3"></textarea>
                         </div>
                     </div>
                     <div class="mt-4 mb-4">
                         <a href="#" class="btn social-btn-second">
-                            Generate 
+                            Generate
                         </a>
                     </div>
 

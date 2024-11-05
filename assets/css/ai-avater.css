@@ -885,7 +885,7 @@ textarea{
 
 .photo-studio-section {
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.14) 14%, rgba(255, 255, 255, 0.35) 35%);
-    padding: 10px;
+    padding: 40px 10px ;
     margin-top: 50px;
     border-radius: 24px;
     width: 99.5%;
@@ -905,14 +905,14 @@ textarea{
 }
 
 .wizard-upload-text {
-    font-family: 'Poppins-Bold';
+    font-family: 'Poppins-Regular';
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 25px;
     text-align: center;
+    color: #3A3886;
     width: 45%;
     margin: auto;
-
 }
 
 .custom-select {
@@ -920,8 +920,25 @@ textarea{
     width: 100%;
     border: 1px solid white !important;
     ;
-    padding: 10px;
+    padding: 10px 20px;
     border-radius: 24px;
+  
+}
+.custom-select-photo-studio {
+    font-family: 'Poppins-Regular';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: left;
+    color: #3A3886;
+}
+.custom-select-photo-studio::placeholder {
+    font-family: 'Poppins-Regular';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: left;
+    color: #3A3886;
 }
 
 .custom-textarea {
