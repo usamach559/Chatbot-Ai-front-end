@@ -45,8 +45,8 @@
         .slider:before {
             position: absolute;
             content: "";
-            height: 1em;
-            width: 1em;
+            height: 1.5em;
+            width: 1.5em;
             left: 0.3em;
             top: 1.2px;
             bottom: 0.3em;
@@ -65,9 +65,9 @@
         }
 
         .switch input:checked+.slider:before {
-            transform: translateX(1.2em);
-            width: 1em;
-            height: 1em;
+            transform: translateX(1.6em);
+            width: 1.5em;
+            height: 1.5em;
             bottom: 0;
         }
     </style>
@@ -339,10 +339,12 @@
             </div>
         </nav>
         <div class="container px-3">
-            <div class="row">
-                <div class="d-flex justify-content-between mt-5">
+            <div class="row d-flex justify-content-between mt-5">
+                <div class="col-lg-6">
                     <div class="dashboard-heading">AI RSS</div>
-                    <div class="button-container">
+                </div>
+                <div class="col-lg-6 d-flex justify-content-end">
+                <div class="button-container">
                         <button class="btn dashboard-btn-first">My Documents</button>
                         <button class="btn dashboard-btn-second">
                             <img src="../../assets/svg/Plus (1) 1.svg" alt="" />
@@ -363,7 +365,7 @@
                     </div>
                     <div class="numbers-container-code d-flex justify-content-center">
                         <div class="second-container">
-                            <div class="d-flex flex-wrap justify-content-between align-items-center">
+                            <div class="d-flex flex-wrap justify-content-between align-items-center gap-3">
                                 <a class="nav-link d-flex align-items-center flex-grow-1 me-lg-3"
                                     href="quick-posting.html">
                                     <img src="../../assets/svg/Ellipse 12.svg" alt="" />
@@ -442,7 +444,7 @@
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <h1 class="first-code-heading">Maximum Length</h1>
+                            <h1 class="first-code-heading">Max Length</h1>
                             <div class="input-container">
                                 <input type="number" class="form-control form-control-connect">
                             </div> 
@@ -465,7 +467,7 @@
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <h1 class="first-code-heading">Tone of Voic</h1>
+                            <h1 class="first-code-heading">Tone of Voice</h1>
                             <div class="textarea-container-code">
                                 <div class="form-group">
                                     <select class="form-select code-select-input" id="exampleSelect"
@@ -501,8 +503,8 @@
                     </div>
                     
                     <div class="mt-2 row mb-4">
-                        <div class="d-flex flex-wrap justify-content-start align-items-center">
-                            <!-- Dropdown container -->
+                        <div class="d-flex flex-wrap justify-content-end align-items-center">
+                          
                             <div class="textarea-container-youtube mb-2 mb-md-0">
                                 <div class="form-group">
                                     <select class="form-select ai-youtube-select-input" id="exampleSelect" aria-label="Default select example">
@@ -513,9 +515,9 @@
                                     </select>
                                 </div>
                             </div>
-                            <!-- Images and labels -->
+                            
                             <img src="../../assets/svg(2)/Vector (14).svg" class="ms-3 mb-2 mb-md-0" alt="" />
-                            <p class="ms-3 mt-3 second-heading-code mb-2 mb-md-0">Rewrite</p>
+                            <p class="ms-3 mt-3 second-heading-code  ">Rewrite</p>
                             <img src="../../assets/svg(2)/ai 1.svg" class="ms-2 mb-2 mb-md-0" alt="" />
                             <img src="../../assets/svg(2)/Vector (15).svg" class="ms-3 mb-2 mb-md-0" alt="" />
                             <img src="../../assets/svg(2)/Vector (16).svg" class="ms-3 mb-2 mb-md-0" alt="" />
@@ -524,28 +526,28 @@
                             <img src="../../assets/svg(2)/Bold.svg" class="ms-3 mb-2 mb-md-0" alt="" />
                             <img src="../../assets/svg(2)/Italic (1).svg" class="ms-3 mb-2 mb-md-0" alt="" />
                             <img src="../../assets/svg(2)/Underline.svg" class="ms-3 mb-2 mb-md-0" alt="" />
-                            <img src="../../assets/svg(2)/Vector (17).svg" class="ms-3 mb-2 mb-md-0" alt="" />
+                            <img src="../../assets/svg(2)/Vector (17).svg" class="ms-2 mb-2 mb-md-0" alt="" />
                         </div>
                     </div>
                     
                     
 
                     <div class="code-appear-place d-flex align-items-center">
-                        <h1 class="code-text ms-5 mt-2">Your code will appear here.</h1>
+                        <h1 class="code-text ms-5 mt-2">Untitled Document</h1>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <script>
+    <!-- <script>
         document
             .querySelector(".navbar-toggler")
             .addEventListener("click", function () {
                 const sidebar = document.querySelector(".sidebar");
                 sidebar.classList.toggle("show");
             });
-    </script>
+    </script> -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="../../assets/js/script.js"></script>
