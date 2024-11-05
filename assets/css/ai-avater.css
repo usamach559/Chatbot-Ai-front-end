@@ -478,9 +478,9 @@ textarea{
 }
 
 .labe-connect-account {
-    font-family: 'Poppins-Bold';
+    font-family: 'Poppins-Regular';
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 21px;
     text-align: center;
     color: #007AFF !important;
@@ -502,9 +502,9 @@ textarea{
 }
 
 .connect-section-main-para {
-    font-family: 'Poppins-Bold';
+    font-family: 'Poppins-Regular';
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 24px;
     text-align: center;
 
