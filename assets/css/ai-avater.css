@@ -408,9 +408,9 @@ textarea{
 }
 
 .social-second-heading {
-    font-family: 'Poppins-Bold';
+    font-family: 'Poppins-Regular';
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 24px;
     text-align: left;
     color: #007AFF !important;
@@ -418,22 +418,22 @@ textarea{
 
 .socail-connect-btn {
     background-color: #8280FF !important;
-    padding: 10px 20px;
-    border-radius: 24px;
-    font-family: 'Poppins-Regular';
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 18px;
-    text-align: left;
+    padding: 10px 20px !important;
+    border-radius: 24px !important;
+    font-family: 'Poppins-Regular' !important;
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    line-height: 18px !important;
+    text-align: left !important;
     color: white !important;
-    margin-bottom: 10px;
+    margin-bottom: 10px !important;
 
 }
 
 .social-section-main-para {
-    font-family: 'Poppins-Bold';
+    font-family: 'Poppins-Regular';
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 18px;
     text-align: left;
 
