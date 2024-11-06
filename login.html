@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
     <!-- Custom CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
     <link rel="stylesheet" href="assets/css/login.css">
 
 </head>
@@ -45,12 +47,14 @@
                         </div>
                         <input type="email" class="form-control" name="email" placeholder="your@email.com" required>
                     </div>
-                    <div class="input-container mx-5 mt-4">
+                    <div class="input-container mx-5 mt-4 position-relative">
                         <div class="label mb-2">
                             Password
                         </div>
-                        <input type="password" class="form-control" name="password" placeholder="Enter your password here." required>
+                        <input type="password" class="form-control" name="password" id="password" placeholder="" required>
+                        <i class="toggle-password bi bi-eye position-absolute" style="right: 30px; top: 70%; transform: translateY(-50%); cursor: pointer;" onclick="togglePassword()"></i>
                     </div>
+                    
                     <div class="d-flex mx-5 mt-5 justify-content-between">
                         <div class="form-check">
                             <input class="form-check-input" type="checkbox" id="checkbox">
@@ -74,6 +78,7 @@
 
     <!-- Bootstrap JS (optional if needed) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
 
 </body>
 
