@@ -14,9 +14,9 @@
     <link rel="stylesheet" href="../../assets/css/ai-avater.css" />
     <link rel="stylesheet" href="../../assets/css/ai-avater.css" />
     <style>
-       
-        
-        </style>
+
+
+    </style>
 </head>
 
 <body>
@@ -285,15 +285,15 @@
             </div>
         </nav>
         <div class="container px-3">
-            <div class="row mb-5">
-                <div class="d-flex justify-content-between mt-5">
-                    <div class="dashboard-heading">AI Detector</div>
-
+            <div class="row mb-5 mt-5 d-flex justify-content-between">
+                <div class="col-lg-6">
+                    <div class="dashboard-heading">SEO Tool</div>
+                </div>
+                <div class=" d-flex justify-content-end col-lg-6">
                     <div class="button-container">
-                        <button class="btn dashboard-btn-first">My Documents</button>
                         <button class="btn dashboard-btn-second">
                             <img src="../../assets/svg/Plus (1) 1.svg" alt="" />
-                            Add New
+                            New Video
                         </button>
                     </div>
                 </div>
@@ -310,11 +310,9 @@
                     <div class="ai-detector-col-heading d-flex justify-content-center mt-3">
                         AI Content Report
                     </div>
-                   
                     <div>
-                        <div id="chartdiv" ></div>
+                        <div id="chartdiv"></div>
                     </div>
-                    
                     <div class="ai-seo-tools-progress-details d-flex align-items-center justify-content-between">
                         <div class="form-group">
                             <select class="form-select seo-select-input" id="exampleSelect"
@@ -335,7 +333,6 @@
                         <h1 class="detector-col-second-heading">
                             Add Content
                         </h1>
-                       
                     </div>
                     <p class="left-section-data-plagiarism px-5 pt-5 pb-5">
                         Lorem ipsum dolor sit amet consectetur. Sapien quis risus aenean molestie eget tortor
@@ -371,15 +368,15 @@
                 sidebar.classList.toggle("show");
             });
     </script>
-<script src="https://cdn.amcharts.com/lib/4/core.js"></script>
-<script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
-<script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
+    <script src="https://cdn.amcharts.com/lib/4/core.js"></script>
+    <script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
+    <script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script>
-        am4core.ready(function() {
-            am4core.useTheme(am4themes_animated);    
+        am4core.ready(function () {
+            am4core.useTheme(am4themes_animated);
             var chart = am4core.create("chartdiv", am4charts.PieChart);
-            chart.hiddenState.properties.opacity = 0; 
+            chart.hiddenState.properties.opacity = 0;
             chart.data = [
                 {
                     country: "Plagiarized",
@@ -404,26 +401,19 @@
             series.slices.template.cornerRadius = 0;
             series.slices.template.innerCornerRadius = 0;
             series.labels.template.disabled = true;
-            series.ticks.template.disabled = true;          
+            series.ticks.template.disabled = true;
             chart.legend = new am4charts.Legend();
             chart.legend.position = "bottom";
             chart.legend.valign = "bottom";
             chart.legend.contentAlign = "center";
             chart.legend.itemContainers.template.width = am4core.percent(40);
             chart.legend.labels.template.text = "[bold]{country}[/]";
-            chart.legend.valueLabels.template.disabled = true; 
+            chart.legend.valueLabels.template.disabled = true;
             chart.chartContainer.marginBottom = 0;
-            chart.chartContainer.marginTop = 0; 
+            chart.chartContainer.marginTop = 0;
             chart.legend.marginBottom = 0;
         });
     </script>
-    
-    
-    
-    
-
-
-
 </body>
 
 </html>

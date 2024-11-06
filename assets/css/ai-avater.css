@@ -27,10 +27,14 @@
     font-family: 'Poppins-Bold';
     src: url(../fonts/Poppins-Bold.ttf);
 }
-textarea{
-    resize: none;           /* Prevent resizing */
-    overflow: hidden;       /* Hide overflow content */
+
+textarea {
+    resize: none;
+    /* Prevent resizing */
+    overflow: hidden;
+    /* Hide overflow content */
 }
+
 .main-heading-para {
     font-family: 'Poppins-Regular';
     font-size: 14px;
@@ -765,7 +769,7 @@ textarea{
     padding: 30px 10px;
     border: 1px solid #FFFFFF;
     border-radius: 24px;
-  
+
 
 }
 
@@ -885,7 +889,7 @@ textarea{
 
 .photo-studio-section {
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.14) 14%, rgba(255, 255, 255, 0.35) 35%);
-    padding: 40px 10px ;
+    padding: 40px 10px;
     margin-top: 50px;
     border-radius: 24px;
     width: 99.5%;
@@ -923,8 +927,9 @@ textarea{
     ;
     padding: 10px 20px;
     border-radius: 24px;
-  
+
 }
+
 .custom-select-photo-studio {
     font-family: 'Poppins-Regular';
     font-size: 12px;
@@ -933,6 +938,7 @@ textarea{
     text-align: left;
     color: #3A3886;
 }
+
 .custom-select-photo-studio::placeholder {
     font-family: 'Poppins-Regular';
     font-size: 12px;
@@ -1420,6 +1426,9 @@ tbody tr:last-of-type td:last-child {
 .numbers-container-code .second-container {
     width: 275px;
 }
+.second-container-dashboard{
+    width: 90%;
+}
 
 .textarea-container-code .textarea-code {
     width: 100%;
@@ -1890,7 +1899,7 @@ tbody tr:last-of-type td:last-child {
     line-height: 18px;
     text-align: left;
     color: #979797;
-    text-decoration-color: #8280FF;
+    text-decoration: none;
 }
 
 .traning-label-second {
@@ -1900,19 +1909,38 @@ tbody tr:last-of-type td:last-child {
     line-height: 18px;
     text-align: left;
     color: #8280FF;
+    text-decoration: none;
+
+}
+
+.traning-label-second:hover {
     text-decoration-color: #8280FF;
+    text-decoration: underline;
+    color: #8280FF;
 }
 
 .traning-label:hover {
+    text-decoration-color: #8280FF;
+    text-decoration: underline;
     color: #8280FF;
 }
 
 .traning-input-main {
     background-color: transparent !important;
-    padding: 10px;
+    padding: 10px 20px;
     border-radius: 24px;
     padding-right: 50px;
     border: 1px solid white;
+}
+
+.traning-input-main::placeholder {
+    font-family: 'Poppins-Regular';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: #3A3886;
+
 }
 
 .input-container-traning {
@@ -2321,6 +2349,26 @@ span {
     border: 1px solid white;
     border-radius: 24px;
     width: 100%;
+    color: white;
+    font-family: 'Poppins-Regular';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+
+}
+.seo-select-input option {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 24px;
+    width: 100%;
+    color: black;
+    font-family: 'Poppins-Regular';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+
 }
 
 .form-select-keywords-seo {
