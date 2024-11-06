@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function () {
     tabSlider.addEventListener('scroll', toggleScrollIcons);
 
     // Ensure Bootstrap's JavaScript is correctly initializing the tabs
-    const tabElements = document.querySelectorAll('.nav-link');
+    const tabElements = document.querySelectorAll('.nav-link-slider');
     tabElements.forEach(tab => {
         tab.addEventListener('click', function (e) {
             e.preventDefault();
@@ -52,26 +52,8 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
-// Sabhi elements jinme 'link-text' class hai, unko select karen
-// Sabhi elements jinme 'nav-item' class hai, unko select karen
-const navItems = document.querySelectorAll('.nav-item');
 
-// Har ek nav-item par click event listener lagayein
-navItems.forEach(item => {
-    item.addEventListener('click', function (event) {
-        // Default action ko rok lein agar koi anchor tag ka use ho raha ho
-        event.preventDefault();
 
-        // Sab links ke andar se 'active-t' class ko remove karen
-        document.querySelectorAll('.link-text').forEach(link => link.classList.remove('active-t'));
-
-        // Is clicked nav-item ke andar jo 'link-text' hai usme 'active-t' class add karen
-        const linkText = this.querySelector('.link-text');
-        if (linkText) {
-            linkText.classList.add('active-t');
-        }
-    });
-});
 
 
 
