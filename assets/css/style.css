@@ -152,7 +152,7 @@ body {
 
 }
 
-.link-text.active {
+.active .link-text {
     color: #fff !important;
 }
 
