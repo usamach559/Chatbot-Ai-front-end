@@ -2480,3 +2480,6 @@ input::placeholder {
     text-align: left !important;
     color: #3A3886 !important;
 }
+.chat-slider-col{
+    margin-top: 8px;
+}

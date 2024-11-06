@@ -15,32 +15,7 @@
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <style>
-        thead tr th:first-child {
-            border-top-left-radius: 24px;
-            padding-top: 40px;
-        }
-
-        thead tr th:last-child {
-            border-top-right-radius: 24px;
-            padding-top: 40px;
-
-        }
-
-        tbody tr td:first-child {
-            border-bottom-left-radius: 24px;
-
-        }
-
-        tbody tr td:last-child {
-            border-bottom-right-radius: 24px;
-        }
-
-        .form-check-input:checked {
-            background-color: rgba(255, 165, 0, 1);
-            border-color: rgba(255, 165, 0, 1);
-        }
-    </style>
+  
 </head>
 
 <body>
@@ -324,17 +299,19 @@
             </div>
         </nav>
         <div class="container px-3">
-            <div class="row">
-                <div class=" d-flex justify-content-between  mt-5">
+            <div class="row d-flex justify-content-between  mt-5">
+                <div class="col-lg-6">
                     <div class="dashboard-heading">
                         AI Chat
                     </div>
+                </div>
+                <div class=" d-flex justify-content-end col-lg-6">
 
                     <div class="button-container">
                         <button class="btn dashboard-btn-first">
                             My Documents
                         </button>
-                        <button class="btn dashboard-btn-second">
+                        <button class="btn dashboard-btn-second ms-3">
                             <img src="../../assets/svg/Plus (1) 1.svg" alt="">
                             Add New
                         </button>
@@ -359,7 +336,7 @@
                                 </div>
                             </li>
                         </div>
-                        <div class="col-lg-9">
+                        <div class="col-lg-9 chat-slider-col " >
                             <li class="nav-item">
                                 <a class="nav-link active" id="pills-all-tab" data-bs-toggle="pill" href="#pills-all"
                                     role="tab" aria-controls="pills-all" aria-selected="true">All</a>
@@ -517,13 +494,13 @@
 
 
     </div>
-
+<!-- 
     <script>
         document.querySelector('.navbar-toggler').addEventListener('click', function () {
             const sidebar = document.querySelector('.sidebar');
             sidebar.classList.toggle('show');
         });
-    </script>
+    </script> -->
 
     <script>
         // Get the elements by their IDs
