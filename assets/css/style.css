@@ -161,6 +161,11 @@ body {
     border-radius: 20px;
     padding-left: 40px;
 }
+.search-input-chat {
+    border-radius: 20px;
+    padding-left: 50px !important;
+}
+
 
 .search-container {
     position: relative;
