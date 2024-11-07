@@ -79,7 +79,16 @@ textarea {
     bottom: -20px;
 
 }
+@media (min-width:992px) {
+    .section-img-main {
+        width: 387px;
+        height: 251px;
+        position: relative;
+        bottom: -20px;
+        right: 84px;
 
+    }
+}
 @media (max-width:420px) {
     .section-img-main {
         left: -50px;
