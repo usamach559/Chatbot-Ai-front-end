@@ -364,6 +364,12 @@
 <script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
 <script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+
+
     <script>
         am4core.ready(function () {
             am4core.useTheme(am4themes_animated);
@@ -376,70 +382,55 @@
             chart.startAngle = 180;
             chart.endAngle = 360;
     
-            // Add data with colors
+            // Add data with individual colors for each slice
             chart.data = [
-                {
-                    country: "Plagiarized",
-                    value: 100,
-                    color: am4core.color("#5DB165")
-                },
-                {
-                    country: "Unique",
-                    value: 0,
-                    color: am4core.color("#FFCD71")
-                },
-                {
-                    country: "Additional",
-                    value: 0,
-                    color: am4core.color("#FF1809")
-                }
+                { country: "Plagiarized", value: 401, color: am4core.color("#5DB165") },
+                { country: "Unique", value: 300, color: am4core.color("#FFCD71") },
+                { country: "Additional", value: 0, color: am4core.color("#FF1809") }
             ];
     
             // Create a series
             var series = chart.series.push(new am4charts.PieSeries());
             series.dataFields.value = "value";
             series.dataFields.category = "country";
-    
-            // Apply color from data
+            
+            // Apply color from data to each slice
             series.slices.template.propertyFields.fill = "color";
-    
-            // Disable default labels and ticks on chart
+            series.slices.template.propertyFields.stroke = "color";
+            
+            // Additional configurations
+            series.slices.template.strokeWidth = 0;
+            series.slices.template.strokeOpacity = 0;
+            series.slices.template.cornerRadius = 0;
+            series.slices.template.innerCornerRadius = 0;
             series.labels.template.disabled = true;
             series.ticks.template.disabled = true;
     
-            // Show value label on slice hover
-            series.slices.template.events.on("over", function(event) {
-                let slice = event.target;
-                slice.tooltipText = "{category}: {value}%";
-            });
-            series.slices.template.events.on("out", function(event) {
-                let slice = event.target;
-                slice.tooltipText = "";  // Hide tooltip when not hovering
-            });
-    
             // Legend settings
             chart.legend = new am4charts.Legend();
+            chart.legend.position = "bottom";
+            chart.legend.valign = "bottom";
             chart.legend.contentAlign = "center";
+            chart.legend.itemContainers.template.width = am4core.percent(20);
+    
+            // Only show country name in the legend, without values
+            chart.legend.labels.template.text = "[bold]{country}[/]";
+            chart.legend.valueLabels.template.disabled = true;  // Ensure value labels are hidden
+            chart.legend.valueLabels.template.text = "none";        // Clear any text for value labels
+    
+            // Additional alignment fixes for legend
             chart.legend.marginTop = 0;
             chart.legend.marginBottom = 0;
-            chart.legend.itemContainers.template.width = am4core.percent(25); // Adjust width to fit items in one row
-    
-            // Configure legend markers as small circles
-            chart.legend.markers.template.width = 10;
-            chart.legend.markers.template.height = 10;
-            chart.legend.markers.template.cornerRadius(5); // Make markers circular
-    
-            // Show only country name without value in legend
-            chart.legend.labels.template.text = "{country}";
-            chart.legend.valueLabels.template.disabled = true;  // Disable values in legend
-    
-            // Force legend items into a single row
-            chart.legend.itemContainers.template.layout = "horizontal";
-            chart.legend.itemContainers.template.paddingBottom = 0;
-            chart.legend.itemContainers.template.paddingTop = 0;
+            chart.chartContainer.marginBottom = 0;
+            chart.chartContainer.marginTop = 0;
         });
     </script>
     
+    
+    
+    
+    
+
     
     
     
