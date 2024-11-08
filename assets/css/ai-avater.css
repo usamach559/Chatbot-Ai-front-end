@@ -2214,7 +2214,7 @@ span {
 }
 
 .chat-user-name-container {
-    max-height: 600px;
+    max-height: 540px;
     overflow-y: auto;
 }
 
@@ -2278,6 +2278,14 @@ span {
     line-height: 18px;
     text-align: center;
     color: #007AFF;
+}
+.post-url-analyze-web-chat {
+    font-family: 'Poppins-Regular';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    color: white;
 }
 
 .clipboard-image {
