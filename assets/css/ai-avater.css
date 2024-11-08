@@ -1678,6 +1678,7 @@ tbody tr:last-of-type td:last-child {
         background: linear-gradient(180deg, rgba(130, 128, 255, 0.2) 0%, rgba(130, 128, 255, 0.08) 100%);
         padding: 20px 10px;
         border-radius: 24px;
+        width: 100%;
     }
 }
 
@@ -1709,10 +1710,20 @@ tbody tr:last-of-type td:last-child {
     font-family: 'Poppins-Regular';
     font-size: 16px;
     font-weight: 600;
-    /* line-height: 24px; */
     text-align: left;
 
 
+}
+@media (max-width:400px) {
+    
+.affiliates-link {
+    font-family: 'Poppins-Regular';
+    font-size: 12px;
+    font-weight: 600;
+    text-align: left;
+
+
+}
 }
 
 .affiliates-first-row-heading-second {
@@ -1836,11 +1847,11 @@ tbody tr:last-of-type td:last-child {
     padding-right: 40px;
 }
 
-.input-icon {
+.input-icon-affiliates {
     position: absolute;
     right: 10px;
     right: 36px;
-    top: 70%;
+    top: 66%;
     width: 20px;
     height: auto;
     pointer-events: none;
