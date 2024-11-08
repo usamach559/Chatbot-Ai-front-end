@@ -46,16 +46,17 @@
             pointer-events: none;
         }
 
+      
         .input-icon-end:nth-child(3) {
-            right: 160px;
+            right: 100px;
         }
 
         .input-icon-end:nth-child(4) {
-            right: 130px;
+            right: 70px;
         }
 
         .input-icon-end:nth-child(5) {
-            right: 100px;
+            right: 40px;
         }
 
         @media (max-width:500px) {
@@ -133,6 +134,7 @@
             height: 1em;
             bottom: 0;
         }
+        
     </style>
     
 </head>
@@ -403,15 +405,17 @@
             </div>
         </nav>
         <div class="container px-3">
-            <div class="row mb-5">
-                <div class="d-flex justify-content-between mt-5">
+            <div class="row mb-5 d-flex justify-content-between mt-5">
+                <div class="col-lg-6">
                     <div class="dashboard-heading">
                         AI Chat Image
                     </div>
-
+                </div>
+                
+                <div class="d-flex justify-content-end col-lg-6">
                     <div class="button-container">
                         <button class="btn dashboard-btn-first">My Documents</button>
-                        <button class="btn dashboard-btn-second">
+                        <button class="btn dashboard-btn-second ms-3">
                             <img src="../../assets/svg/Plus (1) 1.svg" alt="" />
                             Add New
                         </button>
@@ -426,7 +430,7 @@
 
         <div class="container px-lg-4 px-0 ">
             <div class="row d-flex justify-conent-center mb-5 chat-pages-container">
-                <div class="col-lg-4 chat-users-name">
+                <div class="col-lg-4 chat-users-name mb-lg-0 mb-4">
                     <div class="search-container mt-3 p-3 position-relative">
                         <input type="text" class="search-input form-control" placeholder="Search" />
                         <i class="bi bi-search search-icon"></i>
@@ -523,8 +527,6 @@
                     </div>
                     <div class="messages-container-chat">
                         <div class="container">
-                            
-                            
                             <div class="row">
                                 <div
                                     class="user-message mt-3 col-lg-8 ms-3  d-flex justify-content-start align-items-center">
@@ -546,6 +548,18 @@
                                     </div>
                                     <div class="chat-image-messenger-container">
                                         <img src="../../assets/images/0bb32e69cb7c104f12044c0a7897f558.jpeg" class="chat-image-messenger ms-4" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div
+                                    class="user-message  col-lg-11 mt-3 me-3 d-flex justify-content-end align-items-center">
+                                    <p class="message-text-chat me-4">
+                                        Generate more images, colorful images.
+                                    </p>
+                                    <div>
+                                        <img src="../../assets/images/42bbc42276c6da4faf4d269d4c4b74e2.jpeg"
+                                            class="messager-message-image mb-2" alt="">
                                     </div>
                                 </div>
                             </div>
