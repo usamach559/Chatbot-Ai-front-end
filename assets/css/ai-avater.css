@@ -2347,8 +2347,7 @@ span {
     background-color: transparent !important;
     border-radius: 24px;
     border: 1px solid#97979733;
-    width: 100%;
-    max-width: 550px;
+    width: 95%;
 }
 
 .chat-image-messenger {
@@ -2506,4 +2505,9 @@ input::placeholder {
 }
 .chat-slider-col{
     margin-top: 8px;
+}
+@media(min-width:992px){
+    .chat-pages-container{
+        --bs-gutter-x: 0rem;
+    }
 }
