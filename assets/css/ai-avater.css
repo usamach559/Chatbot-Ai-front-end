@@ -79,6 +79,7 @@ textarea {
     bottom: -20px;
 
 }
+
 @media (min-width:992px) {
     .section-img-main {
         width: 387px;
@@ -89,6 +90,7 @@ textarea {
 
     }
 }
+
 @media (max-width:420px) {
     .section-img-main {
         left: -50px;
@@ -1435,7 +1437,8 @@ tbody tr:last-of-type td:last-child {
 .numbers-container-code .second-container {
     width: 275px;
 }
-.second-container-dashboard{
+
+.second-container-dashboard {
     width: 90%;
 }
 
@@ -1452,8 +1455,9 @@ tbody tr:last-of-type td:last-child {
     text-align: left !important;
     color: #3A3886 !important;
 }
+
 .textarea-container-code .textarea-code::placeholder {
-   
+
     font-family: 'Poppins-Regular' !important;
     font-size: 12px !important;
     font-weight: 400 !important;
@@ -2162,11 +2166,26 @@ span {
 }
 
 
-.chat-users-name {
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.06) 100%);
-    padding: 10px;
-    border-radius: 24px;
+@media (min-width:992px) {
+    .chat-users-name {
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.06) 100%);
+        padding: 10px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        border-top-left-radius: 24px;
+        border-bottom-left-radius: 24px;
+    }
 }
+
+@media (max-width:992px) {
+
+    .chat-users-name {
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.06) 100%);
+        padding: 10px;
+        border-radius: 24px;
+    }
+}
+
 
 
 
@@ -2225,7 +2244,7 @@ span {
 }
 
 .chat-user-name-container {
-    max-height: 600px;
+    max-height: 540px;
     overflow-y: auto;
 }
 
@@ -2288,7 +2307,7 @@ span {
     font-weight: 400;
     line-height: 18px;
     text-align: center;
-    color: white;
+    color: #007AFF;
 }
 
 .clipboard-image {
@@ -2380,6 +2399,7 @@ span {
     text-align: center;
 
 }
+
 .seo-select-input option {
     background-color: transparent;
     border: 1px solid white;
@@ -2503,11 +2523,13 @@ input::placeholder {
     text-align: left !important;
     color: #3A3886 !important;
 }
-.chat-slider-col{
+
+.chat-slider-col {
     margin-top: 8px;
 }
-@media(min-width:992px){
-    .chat-pages-container{
+
+@media(min-width:992px) {
+    .chat-pages-container {
         --bs-gutter-x: 0rem;
     }
 }

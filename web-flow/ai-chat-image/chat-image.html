@@ -83,8 +83,8 @@
             font-size: 17px;
             position: relative;
             display: inline-block;
-            width: 3em;
-            height: 1.5em;
+            width: 2em;
+            height: 1em;
 
         }
 
@@ -100,7 +100,7 @@
             position: absolute;
             cursor: pointer;
             inset: 0;
-            border: 3px solid #3A3886;
+            border: 1px solid #000000;
             border-radius: 50px;
             transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
         }
@@ -108,29 +108,29 @@
         .slider:before {
             position: absolute;
             content: "";
-            height: 1.5em;
-            width: 1.5em;
+            height: 1em;
+            width: 1em;
             left: 0.3em;
             top: 0.74px;
             bottom: 0.3em;
-            border: 3px solid #3A3886;
+            border: 1px solid #000000;
             border-radius: 50px;
             box-shadow: 0 0px 20px rgba(0, 0, 0, 0.4);
             transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
         }
 
         .switch input:checked+.slider {
-            background: #8280ff;
+            background: transparent;
         }
 
         .switch input:focus+.slider {
-            box-shadow: 0 0 1px #8280ff;
+            box-shadow: 0 0 1px #000000;
         }
 
         .switch input:checked+.slider:before {
-            transform: translateX(1.7em);
-            width: 1.5em;
-            height: 1.5em;
+            transform: translateX(1.3em);
+            width: 1em;
+            height: 1em;
             bottom: 0;
         }
     </style>
@@ -417,7 +417,7 @@
                         </button>
                     </div>
                 </div>
-                <div class="main-heading-para mt-5">
+                <div class="main-heading-para mt-5 ms-2">
                     Simply upload a PDF, find specific information. Extract key insights or summarize the entire
                     document.
                 </div>
@@ -425,7 +425,7 @@
         </div>
 
         <div class="container px-lg-4 px-0 ">
-            <div class="row d-flex justify-conent-center mb-5">
+            <div class="row d-flex justify-conent-center mb-5 chat-pages-container">
                 <div class="col-lg-4 chat-users-name">
                     <div class="search-container mt-3 p-3 position-relative">
                         <input type="text" class="search-input form-control" placeholder="Search" />
@@ -506,14 +506,14 @@
                                     <span class="ms-3 your-chat-name">File Analyzer</span>
                                 </div>
                                 <div class="col-lg-8 d-flex justify-content-end align-items-center flex-wrap">
-                                    <div class=" d-flex justify-content-center align-items-center mb-2 mb-lg-0">
-                                        <div class="check-boxes">
+                                    <div class=" d-flex justify-content-center align-items-center mb-2 mb-lg-0 ">
+                                        <div class="check-boxes mt-lg-2 mt-0">
                                             <label class="switch">
                                                 <input type="checkbox" />
                                                 <span class="slider"></span>
                                             </label>
                                         </div>
-                                        <span class="post-url-analyze ms-3">Analyze</span>
+                                        <span class="post-url-analyze ms-3">Real-Time Data</span>
                                     </div>
                                     <img src="../../assets/svg(2)/ClipboardText.svg" class="ms-3 clipboard-image"
                                         alt="">
