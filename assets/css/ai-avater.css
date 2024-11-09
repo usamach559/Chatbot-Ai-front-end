@@ -1414,7 +1414,7 @@ tbody tr:last-of-type td:last-child {
         background: linear-gradient(180deg, rgba(130, 128, 255, 0.2) 0%, rgba(130, 128, 255, 0.08) 100%);
         padding: 30px 20px;
         border-radius: 24px;
-        width: 48.8%;
+        width: 48.8% !important;
     }
 
     .main-coloms-code-second {
