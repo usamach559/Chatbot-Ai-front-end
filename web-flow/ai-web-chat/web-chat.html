@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="../../assets/css/style.css" />
     <link rel="stylesheet" href="../../assets/css/ai-avater.css" />
     <style>
-        .input-container {
+          .input-container {
             position: relative;
             width: 100%;
         }
@@ -45,36 +45,37 @@
             pointer-events: none;
         }
 
+      
         .input-icon-end:nth-child(3) {
-            right: 160px;
+            right: 100px;
         }
 
         .input-icon-end:nth-child(4) {
-            right: 130px;
+            right: 70px;
         }
 
         .input-icon-end:nth-child(5) {
-            right: 100px;
+            right: 40px;
         }
 
         @media (max-width:500px) {
             .main-container-messenger {
-                padding-left: 50px;
-                padding-right: 100px;
-                height: 40px;
-                box-sizing: border-box;
-            }
+            padding-left: 50px;
+            padding-right: 100px;
+            height: 40px;
+            box-sizing: border-box;
+        }
 
             .input-icon-end:nth-child(3) {
-                right: 70px;
+                right: 80px !important;
             }
 
             .input-icon-end:nth-child(4) {
-                right: 40px;
+                right: 50px !important;
             }
 
             .input-icon-end:nth-child(5) {
-                right: 10px;
+                right: 20px !important;
             }
         }
     </style>
@@ -369,9 +370,9 @@
             </div>
         </div>
 
-        <div class="container px-lg-4 px-0 ">
+        <div class="container px-lg-4 px-4 ">
             <div class="row d-flex justify-conent-center mb-5 chat-pages-container">
-                <div class="col-lg-4 chat-users-name">
+                <div class="col-lg-4 chat-users-name mb-lg-0 mb-5">
                     <div class="search-container mt-3 p-3 position-relative">
                         <input type="text" class="search-input form-control" placeholder="Search" />
                         <i class="bi bi-search search-icon"></i>
@@ -464,15 +465,13 @@
                             <div class="row d-flex justify-content-between align-items-center flex-wrap">
                                 <div class="imag-name-coantainer-chat col-lg-4 d-flex align-items-center mb-2 mb-lg-0">
                                     <div>
-
                                         <img src="../../assets/images/42bbc42276c6da4faf4d269d4c4b74e2.jpeg"
                                             class="your-chat-image" alt="">
                                     </div>
                                     <span class="ms-3 your-chat-name">File Analyzer</span>
                                 </div>
-                                <div class="col-lg-8 d-flex justify-content-end align-items-center flex-wrap">
-                                    <div
-                                        class="post-url-container d-flex justify-content-center align-items-center mb-2 mb-lg-0">
+                                <div class="col-lg-8 d-flex justify-content-end align-items-center ">
+                                    <div class="post-url-container d-flex justify-content-center align-items-center mb-2 mb-lg-0">
                                         <span class="post-url-chat">Post Url to analyze</span>
                                         <span class="post-url-analyze-web-chat ms-3">Analyze</span>
                                     </div>
