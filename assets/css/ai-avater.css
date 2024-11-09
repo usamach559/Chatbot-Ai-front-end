@@ -1375,23 +1375,23 @@ textarea {
 }
 
 thead tr th:first-child {
-    border-top-left-radius: 24px;
+    border-top-left-radius: 24px !important;
     padding-top: 40px;
 }
 
 thead tr th:last-child {
-    border-top-right-radius: 24px;
+    border-top-right-radius: 24px !important;
     padding-top: 40px;
 
 }
 
 /* Only apply the border-radius to the last row's last cell */
 tbody tr:last-of-type td:first-child {
-    border-bottom-left-radius: 24px;
+    border-bottom-left-radius: 24px !important;
 }
 
 tbody tr:last-of-type td:last-child {
-    border-bottom-right-radius: 24px;
+    border-bottom-right-radius: 24px !important;
 }
 
 
