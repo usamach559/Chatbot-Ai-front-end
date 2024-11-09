@@ -1728,6 +1728,17 @@ tbody tr:last-of-type td:last-child {
 
 }
 }
+@media (max-width:350px) {
+    
+.affiliates-link {
+    font-family: 'Poppins-Regular';
+    font-size: 10px;
+    font-weight: 600;
+    text-align: left;
+
+
+}
+}
 
 .affiliates-first-row-heading-second {
     font-family: 'Poppins-Bold';
