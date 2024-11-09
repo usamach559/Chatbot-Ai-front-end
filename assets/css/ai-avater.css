@@ -517,6 +517,14 @@ textarea {
     border: 1px solid white !important;
     border-radius: 24px !important;
 }
+.form-control-connect::placeholder   {
+    font-family: 'Poppins-Regular';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: left;
+    color: #3A3886;
+}
 
 .connect-update-btn {
     width: 100%;
@@ -1399,12 +1407,7 @@ tbody tr:last-of-type td:last-child {
 
 
 
-/*  ai-code-generator  */
-@media(min-width:992px) {
-    .ai-code-main-row {
-        width: 99%;
-    }
-}
+
 
 @media (min-width:992px) {
     .main-coloms-code {
