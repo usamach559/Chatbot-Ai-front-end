@@ -2238,6 +2238,12 @@ span {
     max-height: 540px;
     overflow-y: auto;
 }
+@media (max-width: 1150px) {
+    .chat-user-name-container {
+        max-height: 578px;
+        overflow-y: auto;
+    }
+}
 
 
 
@@ -2492,6 +2498,7 @@ span {
     line-height: 18px !important;
     text-align: left !important;
     color: #3A3886 !important;
+    width: 100%;
 }
 
 .vision-ai-tags span {
