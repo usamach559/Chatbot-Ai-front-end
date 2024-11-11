@@ -2250,7 +2250,8 @@ span {
 }
 
 .chat-user-name-container {
-    max-height: 650px;
+    max-height: 720px;
+    height: 100%;
     overflow-y: auto;
 }
 
