@@ -2250,15 +2250,10 @@ span {
 }
 
 .chat-user-name-container {
-    max-height: 540px;
+    max-height: 650px;
     overflow-y: auto;
 }
-@media (max-width: 1150px) {
-    .chat-user-name-container {
-        max-height: 578px;
-        overflow-y: auto;
-    }
-}
+
 
 
 
@@ -2371,10 +2366,8 @@ span {
             background: linear-gradient(to bottom, rgba(130, 128, 255, 0.2) 20%, rgba(130, 128, 255, 0.08) 80%);
             padding: 10px;
             border-bottom-left-radius: 0;
-            border-bottom-right-radius: 24px;
-            display: flex;
-            flex-direction: column;
-            height: 105vh;
+            border-bottom-right-radius: 0;
+           
     
     
         }
@@ -2411,7 +2404,7 @@ span {
             background: linear-gradient(to bottom, rgba(130, 128, 255, 0.2) 20%, rgba(130, 128, 255, 0.08) 80%);
             padding: 10px;
             border-bottom-left-radius: 24px;
-            border-bottom-right-radius: 24px;
+            border-bottom-right-radius: 0;
             border-top-left-radius: 0;
             border-top-right-radius: 0;
             display: flex;
@@ -2624,3 +2617,10 @@ input::placeholder {
     margin: auto;
     margin-bottom: 20px;
 }
+.send-messege-input{
+    padding-top: 50px;
+    background: linear-gradient(to bottom, rgba(130, 128, 255, 0.2) 20%, rgba(130, 128, 255, 0.08) 80%);
+    padding: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 24px;
+  }
