@@ -324,18 +324,17 @@
         <div class="container px-3  d-flex justify-content-center">
             <div class="row ai-image-generator-section">
                 <div class="d-flex flex-wrap justify-content-between">
-                    <div class="button-container mt-3  col-lg-6 col-12">
-                        <button class="btn section-btn-first-connect">
+                    <div class="button-container mt-3 col-lg-6 col-12">
+                        <button class="btn active  section-btn-connect" id="dalleBtn">
                             DALL-E
                         </button>
-                        <button class="btn section-btn-second-connect ">
+                        <button class="btn   section-btn-connect" id="stableDiffusionBtn">
                             Stable Diffusion
                         </button>
                     </div>
                     <div class="col-lg-3 col-md-6  mt-3 me-lg-3">
                         <div class="d-flex flex-wrap justify-content-between align-items-center gap-2">
-                            <a class="nav-link d-flex align-items-center flex-grow-1  "
-                                href="quick-posting.html">
+                            <a class="nav-link d-flex align-items-center flex-grow-1  " href="quick-posting.html">
                                 <img src="../../assets/svg/Ellipse 12.svg" alt="">
                                 <span class="link-text-credits ms-2">Words</span>
                                 <span class="link-text-credits ms-auto">100,000</span>
@@ -480,6 +479,114 @@
 
 
                 </div>
+                <div class="tab-content" id="tabContent">
+                    <div class="tab-pane" id="dalleTab">
+                    </div>
+                    <div class="tab-pane" id="stableDiffusionTab">
+                        <div class="custom-scroll-bar-container" style="padding-right: 11px;">
+                            <i class="fas fa-chevron-left custom-scroll-icon" id="custom-scroll-left"></i>
+    
+                            <!-- Scrollable div with select inputs -->
+                            <div class="custom-tab-slider" id="cu
+                            stom-pills-tab" role="tablist">
+                                <div class="me-4">
+                                    <p class="image-select-heading">Image resolution</p>
+                                    <div class="custom-nav-item">
+    
+                                        <select class="form-select custom-nav-item-select" aria-controls="custom-pills-all">
+                                            <option value="custom-pills-all" selected>None</option>
+                                            <option value="custom-pills-option1">Option 1</option>
+                                            <option value="custom-pills-option2">Option 2</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="me-4">
+                                    <p class="image-select-heading">Art Style</p>
+                                    <div class="custom-nav-item">
+    
+                                        <select class="form-select custom-nav-item-select" aria-controls="custom-pills-all">
+                                            <option value="custom-pills-all" selected>None</option>
+                                            <option value="custom-pills-option1">Option 1</option>
+                                            <option value="custom-pills-option2">Option 2</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="me-4">
+                                    <p class="image-select-heading">Lightig Style</p>
+                                    <div class="custom-nav-item">
+    
+                                        <select class="form-select custom-nav-item-select" aria-controls="custom-pills-all">
+                                            <option value="custom-pills-all" selected>None</option>
+                                            <option value="custom-pills-option1">Option 1</option>
+                                            <option value="custom-pills-option2">Option 2</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="me-4">
+                                    <p class="image-select-heading">Mood</p>
+                                    <div class="custom-nav-item">
+    
+                                        <select class="form-select custom-nav-item-select" aria-controls="custom-pills-all">
+                                            <option value="custom-pills-all" selected>None</option>
+                                            <option value="custom-pills-option1">Option 1</option>
+                                            <option value="custom-pills-option2">Option 2</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="me-4">
+                                    <p class="image-select-heading">Number of Images</p>
+                                    <div class="custom-nav-item">
+    
+                                        <select class="form-select custom-nav-item-select" aria-controls="custom-pills-all">
+                                            <option value="custom-pills-all" selected>None</option>
+                                            <option value="custom-pills-option1">Option 1</option>
+                                            <option value="custom-pills-option2">Option 2</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="me-4">
+                                    <p class="image-select-heading">Quality of Images</p>
+                                    <div class="custom-nav-item">
+    
+                                        <select class="form-select custom-nav-item-select" aria-controls="custom-pills-all">
+                                            <option value="custom-pills-all" selected>None</option>
+                                            <option value="custom-pills-option1">Option 1</option>
+                                            <option value="custom-pills-option2">Option 2</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="me-4">
+                                    <p class="image-select-heading">Image Style</p>
+                                    <div class="custom-nav-item">
+    
+                                        <select class="form-select custom-nav-item-select" aria-controls="custom-pills-all">
+                                            <option value="custom-pills-all" selected>None</option>
+                                            <option value="custom-pills-option1">Option 1</option>
+                                            <option value="custom-pills-option2">Option 2</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="me-4">
+                                    <p class="image-select-heading">Image Style</p>
+                                    <div class="custom-nav-item">
+    
+                                        <select class="form-select custom-nav-item-select" aria-controls="custom-pills-all">
+                                            <option value="custom-pills-all" selected>None</option>
+                                            <option value="custom-pills-option1">Option 1</option>
+                                            <option value="custom-pills-option2">Option 2</option>
+                                        </select>
+                                    </div>
+                                </div>
+    
+    
+    
+    
+                            </div>
+    
+                            <i class="fas fa-chevron-right custom-scroll-icon" id="custom-scroll-right"></i>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </div>
@@ -603,7 +710,38 @@
     </script>
 
 
+    <script>
+        // Get buttons and tab content sections
+        const dalleBtn = document.getElementById('dalleBtn');
+        const stableDiffusionBtn = document.getElementById('stableDiffusionBtn');
 
+        const dalleTab = document.getElementById('dalleTab');
+        const stableDiffusionTab = document.getElementById('stableDiffusionTab');
+
+        // Function to switch tabs
+        function switchTab(activeBtn, inactiveBtn, activeTab, inactiveTab) {
+            // Activate the clicked tab and its content
+            activeBtn.classList.add('active');
+            activeTab.classList.add('active');
+
+            // Deactivate the other tab and its content
+            inactiveBtn.classList.remove('active');
+            inactiveTab.classList.remove('active');
+        }
+
+        // Set default active tab
+        switchTab(dalleBtn, stableDiffusionBtn, dalleTab, stableDiffusionTab);
+
+        // Event listeners to switch tabs
+        dalleBtn.addEventListener('click', function () {
+            switchTab(dalleBtn, stableDiffusionBtn, dalleTab, stableDiffusionTab);
+        });
+
+        stableDiffusionBtn.addEventListener('click', function () {
+            switchTab(stableDiffusionBtn, dalleBtn, stableDiffusionTab, dalleTab);
+        });
+
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
