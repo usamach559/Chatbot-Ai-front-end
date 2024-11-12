@@ -2429,8 +2429,9 @@ span {
     flex-direction: column;
 }
 
-.chat-send-input-row {
-    margin-top: auto;
+.user-message{
+   position: relative;
+   bottom: 0px ;
 }
 
 .custom-select-vision-ai {
