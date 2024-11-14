@@ -1109,9 +1109,9 @@ textarea {
 }
 
 .docoment-modal .modal-title {
-    font-family: 'Poppins-Bold';
+    font-family: 'Poppins-Regular';
     font-size: 32px;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 50px;
     letter-spacing: 0.6666666865348816px;
     text-align: left;
@@ -1119,15 +1119,20 @@ textarea {
 }
 
 .docoment-modal .form-label {
-    font-family: 'Poppins-Bold';
+    font-family: 'Poppins-regular';
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 21px;
     text-align: center;
-
+    color: #3A3886;
 }
 
 .docoment-modal .form-control {
+    border-radius: 24px !important;
+    border: 1px solid rgba(0, 122, 255, 1);
+    padding: 10px;
+}
+.docoment-modal .modal-form-select {
     border-radius: 24px !important;
     border: 1px solid rgba(0, 122, 255, 1);
     padding: 10px;
@@ -2218,7 +2223,7 @@ span {
 }
 
 .chat-user-name-container {
-    max-height: 720px;
+    max-height: 650px;
     height: 100%;
     overflow-y: auto;
     overflow-x: hidden;
@@ -2665,4 +2670,19 @@ input::placeholder {
     text-underline-position: from-font;
     text-decoration-skip-ink: auto;
 
+}
+
+.modal-second-row-heading-file-chat {
+    font-family: 'Poppins-Regular';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 0.6666666865348816px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+.second-model-file-chat{
+    height: 500px;
 }
