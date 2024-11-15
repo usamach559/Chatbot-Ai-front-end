@@ -1938,6 +1938,15 @@ tbody tr:last-of-type td:last-child {
     color: #979797;
     text-decoration: none;
 }
+.traning-label-create {
+    font-family: 'Poppins-Regular';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+    color: #8280FF;
+    text-decoration: none;
+}
 
 .traning-label-second {
     font-family: 'Poppins-Regular';
