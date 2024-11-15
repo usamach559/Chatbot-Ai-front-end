@@ -2301,7 +2301,7 @@ span {
 }
 
 .post-url-input::placeholder {
-    color: white !important;
+    color: rgb(93, 91, 91) !important;
 }
 
 .post-url-analyze-web-chat {
