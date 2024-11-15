@@ -1991,14 +1991,18 @@ tbody tr:last-of-type td:last-child {
 
 .input-container-traning {
     position: relative;
+    display: flex;
+    align-items: center;
 }
 
 .input-icon {
     position: absolute;
-    top: 50%;
     right: 20px;
+    top: 50%;
     transform: translateY(-50%);
+    pointer-events: auto; /* Allows the image to be clickable if it opens a modal */
 }
+
 
 .chat-traning-pdf-donwload-section-file-input-container {
     border: 1px dashed #007AFF;

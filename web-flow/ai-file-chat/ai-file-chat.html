@@ -33,7 +33,8 @@
             transform: translateY(-50%);
             height: 30px;
             width: 30px;
-            pointer-events: none;
+            pointer-events: auto; 
+
         }
 
 
@@ -43,7 +44,7 @@
             transform: translateY(-50%);
             height: 20px;
             width: 20px;
-            pointer-events: none;
+            pointer-events: auto; 
         }
 
         .input-icon-end:nth-child(3) {
@@ -626,11 +627,11 @@
                             <img src="../../assets/svg/Plus (1) 1.svg" alt="" />
                             Upload Document
                         </button>
-                    
+
                         <!-- Hidden file input -->
                         <input type="file" id="hidden-file-input" style="display: none;" />
                     </div>
-                    </div>
+                </div>
                 <div class="col-lg-8 ">
                     <div class="chat-users-name-second">
                         <div class="container px-lg-4 px-0">
@@ -645,7 +646,7 @@
                                 <div class="col-lg-8 d-flex justify-content-end align-items-center flex-wrap">
                                     <div class=" d-flex justify-content-center align-items-center mb-2 mb-lg-0">
                                         <span class="share-chat-container" data-bs-toggle="modal"
-                                        data-bs-target="#newFolderModal">
+                                            data-bs-target="#newFolderModal">
                                             share
                                         </span>
                                     </div>
@@ -677,8 +678,9 @@
                                     <input type="text" class="form-control main-container-messenger ps-5 "
                                         placeholder="Type a message...">
                                     <img src="../../assets/svg(2)/Frame 427318481.svg" alt="" class="input-icon">
-                                    <img src="../../assets/svg(2)/Vector (30).svg" class="input-icon-end" alt="">
-                                    <img src="../../assets/svg(2)/Vector (31).svg" class="input-icon-end" alt="">
+                                    <img src="../../assets/svg(2)/Vector (30).svg" class="input-icon-end" alt="" data-bs-toggle="modal" data-bs-target="#newLinkModal">
+                                    <img src="../../assets/svg(2)/Vector (31).svg" class="input-icon-end" alt=""data-bs-toggle="modal"
+                                    data-bs-target="#newModalTarget">
                                     <img src="../../assets/svg(2)/Vector (32).svg" class="input-icon-end" alt="">
                                 </div>
                                 <div class="send-button-container">
@@ -722,8 +724,7 @@
                             <div class="d-flex justify-content-end gap-3">
                                 <button type="button" class="btn modal-btn modal-btn-first"
                                     data-bs-dismiss="modal">Cancel</button>
-                                <button type="button" class="btn modal-btn modal-btn-second" data-bs-toggle="modal"
-                                    data-bs-target="#newLinkModal">
+                                <button type="button" class="btn modal-btn modal-btn-second">
                                     Generate New Link
                                 </button>
 
@@ -785,50 +786,56 @@
 
                         <!-- Modal Footer -->
                         <div class="d-flex justify-content-end gap-3">
-                            <button type="button" class="btn dashboard-btn-second ms-3" data-bs-toggle="modal" data-bs-target="#addNewModal">
+                            <button type="button" class="btn dashboard-btn-second ms-3" data-bs-toggle="modal"
+                                data-bs-target="#addNewModal">
                                 <img src="../../assets/svg/Plus (1) 1.svg" alt="" />
                                 Add New
                             </button>
-                            
+
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="modal fade" id="addNewModal" tabindex="-1" aria-labelledby="addNewModalLabel" aria-hidden="true">
+            <div class="modal fade" id="addNewModal" tabindex="-1" aria-labelledby="addNewModalLabel"
+                aria-hidden="true">
                 <div class="modal-dialog modal-lg modal-dialog-centered">
-                    <div class="modal-content docoment-modal"style="border-radius: 24px; padding: 20px 20px;">
+                    <div class="modal-content docoment-modal" style="border-radius: 24px; padding: 20px 20px;">
                         <!-- Modal Header -->
                         <div class="modal-header">
                             <h5 class="modal-title" id="addNewModalLabel">Add New Prompt</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-            
+
                         <!-- Modal Body -->
                         <div class="modal-body">
                             <form>
                                 <div class="mb-3">
-                                    <input type="text" class="form-control ps-5" id="newItemName" placeholder="Enter item name">
+                                    <input type="text" class="form-control ps-5" id="newItemName"
+                                        placeholder="Enter item name">
                                 </div>
                                 <div class="mb-3">
-                                    <textarea class="form-control ps-5" id="newItemDescription" rows="3" placeholder="Enter description"></textarea>
+                                    <textarea class="form-control ps-5" id="newItemDescription" rows="3"
+                                        placeholder="Enter description"></textarea>
                                 </div>
                             </form>
                         </div>
-            
+
                         <!-- Modal Footer -->
                         <div class="d-flex justify-content-end gap-3">
-                            <button type="button" class="btn modal-btn modal-btn-first" data-bs-dismiss="modal">Cancel</button>
-                            <button type="button" class="btn modal-btn modal-btn-second" data-bs-toggle="modal" data-bs-target="#newModalTarget">
+                            <button type="button" class="btn modal-btn modal-btn-first"
+                                data-bs-dismiss="modal">Cancel</button>
+                            <button type="button" class="btn modal-btn modal-btn-second" >
                                 Add
                             </button>
-                            
-                            
+
+
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="modal fade" id="newModalTarget" tabindex="-1" aria-labelledby="newModalTargetLabel" aria-hidden="true">
+            <div class="modal fade" id="newModalTarget" tabindex="-1" aria-labelledby="newModalTargetLabel"
+                aria-hidden="true">
                 <div class="modal-dialog modal-lg modal-dialog-centered">
                     <div class="modal-content docoment-modal" style="border-radius: 24px; padding: 20px 20px;">
                         <!-- Modal Header -->
@@ -836,25 +843,27 @@
                             <h5 class="modal-title" id="newModalTargetLabel">Brand Voice</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-            
+
                         <!-- Modal Body -->
                         <div class="modal-body">
                             <form>
                                 <!-- Select Dropdown for "New Item Name" -->
                                 <div class="mb-3">
                                     <label for="newInput" class="form-label">Select Company</label>
-                                    <select class="form-select modal-form-select ps-5" id="newInput" aria-label="Select item">
+                                    <select class="form-select modal-form-select ps-5" id="newInput"
+                                        aria-label="Select item">
                                         <option value="" disabled selected>Select an item</option>
                                         <option value="item1">Item 1</option>
                                         <option value="item2">Item 2</option>
                                         <option value="item3">Item 3</option>
                                     </select>
                                 </div>
-            
+
                                 <!-- Select Dropdown for "Description" -->
                                 <div class="mb-3">
                                     <label for="newDescription" class="form-label">Select Company</label>
-                                    <select class="form-select modal-form-select ps-5" id="newDescription" aria-label="Select description">
+                                    <select class="form-select modal-form-select ps-5" id="newDescription"
+                                        aria-label="Select description">
                                         <option value="" disabled selected>Select description</option>
                                         <option value="desc1">Description 1</option>
                                         <option value="desc2">Description 2</option>
@@ -863,20 +872,21 @@
                                 </div>
                             </form>
                         </div>
-            
+
                         <!-- Modal Footer -->
                         <div class="d-flex justify-content-end gap-3">
-                            <button type="button" class="btn modal-btn modal-btn-first" data-bs-dismiss="modal">Cancel</button>
+                            <button type="button" class="btn modal-btn modal-btn-first"
+                                data-bs-dismiss="modal">Cancel</button>
                             <button type="button" class="btn modal-btn modal-btn-second">Done</button>
                         </div>
                     </div>
                 </div>
             </div>
-            
-            
-           
-            
-            
+
+
+
+
+
         </div>
 
 
@@ -886,7 +896,7 @@
             // Get the button and the hidden file input
             const uploadButton = document.getElementById('upload-button');
             const fileInput = document.getElementById('hidden-file-input');
-        
+
             // Add event listener to the button to trigger the file input click
             uploadButton.addEventListener('click', () => {
                 fileInput.click(); // Opens the file dialog
