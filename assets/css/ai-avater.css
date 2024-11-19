@@ -757,17 +757,45 @@ textarea {
 
 .wizard-inputs {
     background-color: transparent !important;
-    padding: 30px 10px;
+    padding: 10px 10px;
     border: 1px solid #FFFFFF;
     border-radius: 24px;
 
 
 }
 
+.input-contianer-color-picker,
 .wizard-inputs-second {
     background-color: transparent !important;
     padding: 10px 10px;
     border: 1px solid #FFFFFF;
+    border-radius: 24px;
+    font-family: 'Poppins-regular' !important;
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    line-height: 18px !important;
+    text-align: left !important;
+    text-underline-position: from-font !important;
+    text-decoration-skip-ink: none !important;
+    color: rgba(58, 56, 134, 1) !important;
+}
+
+.input-contianer-color-picker {
+    padding: 10px 20px;
+    font-family: 'Poppins-regular' !important;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.wizard-inputs-second-add-template {
+    background-color: transparent !important;
+    padding: 10px 10px;
+    border: 2px solid #FFFFFF;
     border-radius: 24px;
     font-family: 'Poppins-regular' !important;
     font-size: 12px !important;
@@ -2976,4 +3004,23 @@ input::placeholder {
     border-radius: 24px !important;
     border: 1px solid rgba(0, 122, 255, 1);
     padding: 10px;
+}
+
+.color-picker {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    border: none !important;
+}
+
+.chat-bot-design {
+    font-family: 'Poppins-Regular';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(151, 151, 151, 1) !important;
+
 }
