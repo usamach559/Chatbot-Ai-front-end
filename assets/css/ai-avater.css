@@ -807,13 +807,10 @@ textarea {
     color: #007AFF !important;
 }
 
-/* Container for the grid layout */
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    /* Responsive columns */
     gap: 20px;
-    /* Space between the grid items */
     justify-content: center;
     padding: 20px;
 }
@@ -836,30 +833,22 @@ textarea {
     border-radius: 24px;
     padding: 10px 40px;
     border: none;
-    /* Clean button look */
     white-space: nowrap;
-    /* Prevent text from wrapping */
     overflow: hidden;
-    /* Ensure content stays within the button */
     text-overflow: ellipsis;
-    /* Add ellipsis if the text overflows */
     max-width: 100%;
 }
 
-/* Adjustments for screens smaller than 768px */
 @media (max-width: 768px) {
     .article-wizard {
         padding: 10px 20px;
-        /* Reduce padding for smaller screens */
         max-width: 100%;
     }
 }
 
-/* Adjustments for very small screens */
 @media (max-width: 480px) {
     .grid-container {
         grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-        /* Adjusts columns for very small screens */
     }
 }
 
@@ -1132,6 +1121,7 @@ textarea {
     border: 1px solid rgba(0, 122, 255, 1);
     padding: 10px;
 }
+
 .docoment-modal .modal-form-select {
     border-radius: 24px !important;
     border: 1px solid rgba(0, 122, 255, 1);
@@ -1938,6 +1928,7 @@ tbody tr:last-of-type td:last-child {
     color: #979797;
     text-decoration: none;
 }
+
 .traning-label-create {
     font-family: 'Poppins-Regular';
     font-size: 12px;
@@ -2000,7 +1991,8 @@ tbody tr:last-of-type td:last-child {
     right: 20px;
     top: 50%;
     transform: translateY(-50%);
-    pointer-events: auto; /* Allows the image to be clickable if it opens a modal */
+    pointer-events: auto;
+    /* Allows the image to be clickable if it opens a modal */
 }
 
 
@@ -2289,7 +2281,8 @@ span {
     background: none;
     color: white;
     padding: 5px 10px;
-    padding-right: 60px; /* Space for the "Analyze" button */
+    padding-right: 60px;
+    /* Space for the "Analyze" button */
     border-radius: 24px;
     font-family: 'Poppins-Regular';
     font-size: 11px;
@@ -2704,6 +2697,107 @@ input::placeholder {
     text-decoration-skip-ink: none;
 
 }
-.second-model-file-chat{
+
+.second-model-file-chat {
     height: 500px;
 }
+
+.sort-dropdown {
+    background-color: white;
+    padding: 5px 0;
+    border-radius: 24px;
+    max-width: 120px !important;
+    width: 100% !important;
+
+}
+
+.img-generator-hide-link span {
+    font-family: 'Poppins-Regular';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(58, 56, 134, 1) !important;
+}
+
+.img-generator-hr {
+    background-color: black;
+    height: 1px;
+}
+
+.ai-tools-col {
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 24px;
+    max-width: 310px !important;
+    width: 100% !important;
+}
+
+.ai-tools-col-image {
+    width: 40px;
+    height: 40px;
+
+}
+.Sketch-to-Image{
+    font-family: 'Poppins-Regular';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(58, 56, 134, 1);
+}
+.custom-image-container {
+    position: relative;
+    overflow: hidden;
+  }
+  .custom-hover-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    opacity: 0;
+    border-radius: 24px;
+    transition: opacity 0.3s ease;
+  }
+  .custom-image-container:hover .custom-hover-overlay {
+    opacity: 1;
+  }
+  .custom-hover-icon {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+  }
+  .custom-hover-icon-last {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 16, 0, 1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+  }

@@ -311,7 +311,7 @@
             </div>
         </nav>
         <div class="container px-3">
-            <div class="row  d-flex justify-content-between  mt-5 mb-lg-0 mb-4">
+            <div class="row  d-flex justify-content-between  mt-5  mb-4">
                 <div class="col-lg-6">
                     <div class="dashboard-heading">
                         Documents
@@ -334,9 +334,24 @@
 
             </div>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="scoll-bar-index tab-slider-container" style=" padding-left: 11px;">
+        <div class="container ">
+            <div class="row d-flex flex-wrap align-items-center">
+                <div class="col-lg-2">
+                    <div class="dropdown sort-dropdown   mb-5 ">
+                        <button class="btn btn-language d-flex  align-items-center justify-content-between "
+                            type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                            Sort by:<img src="../../assets/svg(2)/Vector (36).svg" alt="">
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                            <li><a class="dropdown-item" href="#">English</a></li>
+                            <li><a class="dropdown-item" href="#">Spanish</a></li>
+                            <li><a class="dropdown-item" href="#">French</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="scoll-bar-index tab-slider-container mb-5 col-lg-10 d-flex justify-content-start "
+                    style=" padding-left: 11px;">
                     <i class="fas fa-chevron-left scroll-icon" id="scroll-left"></i>
 
                     <ul class="tab-slider" id="pills-tab" role="tablist">
@@ -437,7 +452,8 @@
                                                 <td class="document-type"><span>Grammar Correction</span></td>
                                                 <td class="document-date">2024/10/07</td>
                                                 <td>
-                                                    <input type="radio" class="form-check-input ms-2 ms-lg-0" name="" id="">
+                                                    <input type="radio" class="form-check-input ms-2 ms-lg-0" name=""
+                                                        id="">
                                                 </td>
                                                 <td><img src="../../assets/svg/Vector (4).svg" alt=""></td>
                                             </tr>

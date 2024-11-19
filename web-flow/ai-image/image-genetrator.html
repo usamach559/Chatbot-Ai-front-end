@@ -484,16 +484,17 @@
                     </div>
                     <div class="tab-pane" id="stableDiffusionTab">
                         <div class="custom-scroll-bar-container" style="padding-right: 11px;">
-                           
-    
+
+
                             <!-- Scrollable div with select inputs -->
                             <div class="custom-tab-slider" id="cu
                             stom-pills-tab" role="tablist">
                                 <div class="me-4">
                                     <p class="image-select-heading">Image resolution</p>
                                     <div class="custom-nav-item">
-    
-                                        <select class="form-select custom-nav-item-select" aria-controls="custom-pills-all">
+
+                                        <select class="form-select custom-nav-item-select"
+                                            aria-controls="custom-pills-all">
                                             <option value="custom-pills-all" selected>None</option>
                                             <option value="custom-pills-option1">Option 1</option>
                                             <option value="custom-pills-option2">Option 2</option>
@@ -503,8 +504,9 @@
                                 <div class="me-4">
                                     <p class="image-select-heading">Art Style</p>
                                     <div class="custom-nav-item">
-    
-                                        <select class="form-select custom-nav-item-select" aria-controls="custom-pills-all">
+
+                                        <select class="form-select custom-nav-item-select"
+                                            aria-controls="custom-pills-all">
                                             <option value="custom-pills-all" selected>None</option>
                                             <option value="custom-pills-option1">Option 1</option>
                                             <option value="custom-pills-option2">Option 2</option>
@@ -514,8 +516,9 @@
                                 <div class="me-4">
                                     <p class="image-select-heading">Lightig Style</p>
                                     <div class="custom-nav-item">
-    
-                                        <select class="form-select custom-nav-item-select" aria-controls="custom-pills-all">
+
+                                        <select class="form-select custom-nav-item-select"
+                                            aria-controls="custom-pills-all">
                                             <option value="custom-pills-all" selected>None</option>
                                             <option value="custom-pills-option1">Option 1</option>
                                             <option value="custom-pills-option2">Option 2</option>
@@ -525,8 +528,9 @@
                                 <div class="me-4">
                                     <p class="image-select-heading">Mood</p>
                                     <div class="custom-nav-item">
-    
-                                        <select class="form-select custom-nav-item-select" aria-controls="custom-pills-all">
+
+                                        <select class="form-select custom-nav-item-select"
+                                            aria-controls="custom-pills-all">
                                             <option value="custom-pills-all" selected>None</option>
                                             <option value="custom-pills-option1">Option 1</option>
                                             <option value="custom-pills-option2">Option 2</option>
@@ -534,35 +538,151 @@
                                     </div>
                                 </div>
                             </div>
-    
-                          
+
+
                         </div>
                     </div>
                 </div>
 
             </div>
         </div>
+        <div class="container mt-3 ">
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-4">
+                    <hr class="img-generator-hr">
+                </div>
+                <div class="col-lg-2  d-flex justify-content-center">
+                    <a href="#" class="img-generator-hide-link" id="toggleLink">
+                        <span>Show AI Tools</span>
+                    </a>
+                </div>
+                <div class="col-lg-4">
+                    <hr class="img-generator-hr">
+                </div>
+            </div>
+            <div class="">
+                <div id="aiTools" class="ai-tools mt-3 row gap-3 d-flex justify-content-center">
+                    <div class="col-lg-4 ai-tools-col d-flex align-items-center mt-3">
+                        <img src="../../assets/images/Vector (11).png" class="ai-tools-col-image" alt="">
+                        <div class="ms-3">
+                            <div class="Sketch-to-Image">
+                                <span>Sketch to Image</span>
+                            </div>
+                            <div class="Sketch-to-Image">
+                                <span>Transform you ideas into reality.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 ai-tools-col d-flex align-items-center mt-3">
+                        <img src="../../assets/images/Vector (12).png" class="ai-tools-col-image" alt="">
+                        <div class="ms-3">
+                            <div class="Sketch-to-Image">
+                                <span>Reimagine</span>
+                            </div>
+                            <div class="Sketch-to-Image">
+                                <span>Generate similar variants easily.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 ai-tools-col d-flex align-items-center mt-3">
+                        <img src="../../assets/images/Vector (13).png" class="ai-tools-col-image" alt="">
+                        <div class="ms-3">
+                            <div class="Sketch-to-Image">
+                                <span>Upscale</span>
+                            </div>
+                            <div class="Sketch-to-Image">
+                                <span>Enlarge your images by 4x easily.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 ai-tools-col d-flex align-items-center mt-3">
+                        <img src="../../assets/images/Vector (14).png" class="ai-tools-col-image" alt="">
+                        <div class="ms-3">
+                            <div class="Sketch-to-Image">
+                                <span>Replace BG</span>
+                            </div>
+                            <div class="Sketch-to-Image">
+                                <span>Change the background of images.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 ai-tools-col d-flex align-items-center mt-3">
+                        <img src="../../assets/images/Vector (15).png" class="ai-tools-col-image" alt="">
+                        <div class="ms-3">
+                            <div class="Sketch-to-Image">
+                                <span>Remove BG</span>
+                            </div>
+                            <div class="Sketch-to-Image">
+                                <span>Extract the main object/subject.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 ai-tools-col d-flex align-items-center mt-3">
+                        <img src="../../assets/images/Vector (16).png" class="ai-tools-col-image" alt="">
+                        <div class="ms-3">
+                            <div class="Sketch-to-Image">
+                                <span>Remove Text</span>
+                            </div>
+                            <div class="Sketch-to-Image">
+                                <span>Change or remove text.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="container">
+
             <h1 class="result-image-generator ms-4 mt-3">
                 Result
             </h1>
             <div class="row">
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
-                    <img src="../../assets/images/449353604fda20fd65027de006a1dcde.jpeg"
-                        class="img-fluid generated-images" alt="">
+                    <div class="custom-image-container">
+                        <img src="../../assets/images/449353604fda20fd65027de006a1dcde.jpeg" class="img-fluid generated-images" alt="" />
+                        <div class="custom-hover-overlay">
+                            <a href="#" class="custom-hover-icon"><img src="../../assets/svg(2)/Vector (37).svg" alt=""></a>
+                            <a href="#" class="custom-hover-icon"><img src="../../assets/svg(2)/Vector (38).svg" alt=""></a>
+                            <a href="#" class="custom-hover-icon-last"><img src="../../assets/svg(2)/Vector (39).svg" alt=""></a>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
-                    <img src="../../assets/images/513114c7ab3a2653ccbd51f1e9c51479.jpeg"
-                        class="img-fluid generated-images" alt="">
+                    <div class="custom-image-container">
+                        <img src="../../assets/images/513114c7ab3a2653ccbd51f1e9c51479.jpeg" class="img-fluid generated-images" alt="" />
+                        <div class="custom-hover-overlay">
+                            <a href="#" class="custom-hover-icon" data-bs-toggle="modal" data-bs-target="#customModal"><img src="../../assets/svg(2)/Vector (37).svg" alt=""></a>
+                            <a href="#" class="custom-hover-icon" >
+                                <img src="../../assets/svg(2)/Vector (38).svg" alt="Open Modal">
+                              </a>
+                            <a href="#" class="custom-hover-icon-last"><img src="../../assets/svg(2)/Vector (39).svg" alt=""></a>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
-                    <img src="../../assets/images/68dc3beea97ce8084d7ca96c20fc6412.jpeg"
-                        class="img-fluid generated-images" alt="">
+                    <div class="custom-image-container">
+                        <img src="../../assets/images/68dc3beea97ce8084d7ca96c20fc6412.jpeg" class="img-fluid generated-images" alt="" />
+                        <div class="custom-hover-overlay">
+                            <a href="#" class="custom-hover-icon"><img src="../../assets/svg(2)/Vector (37).svg" alt=""></a>
+                            <a href="#" class="custom-hover-icon"><img src="../../assets/svg(2)/Vector (38).svg" alt=""></a>
+                            <a href="#" class="custom-hover-icon-last"><img src="../../assets/svg(2)/Vector (39).svg" alt=""></a>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
-                    <img src="../../assets/images/63e5a38ad7bfee68d90a3d691723a56a.jpeg"
-                        class="img-fluid generated-images" alt="">
+                    <div class="custom-image-container">
+                        <img src="../../assets/images/63e5a38ad7bfee68d90a3d691723a56a.jpeg" class="img-fluid generated-images" alt="" />
+                        <div class="custom-hover-overlay">
+                            <a href="#" class="custom-hover-icon"><img src="../../assets/svg(2)/Vector (37).svg" alt=""></a>
+                            <a href="#" class="custom-hover-icon"><img src="../../assets/svg(2)/Vector (38).svg" alt=""></a>
+                            <a href="#" class="custom-hover-icon-last"><img src="../../assets/svg(2)/Vector (39).svg" alt=""></a>
+                        </div>
+                    </div>
                 </div>
+              
+                
+
             </div>
         </div>
 
@@ -570,7 +690,25 @@
 
 
 
-
+        <div class="modal fade" id="customModal" tabindex="-1" aria-labelledby="customModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="customModalLabel">Modal Header</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  This is the body of the modal.
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save Changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
 
 
 
@@ -583,6 +721,20 @@
 
 
     </div>
+    <script>
+        const toggleLink = document.getElementById('toggleLink');
+        const aiToolsDiv = document.getElementById('aiTools');
+
+        toggleLink.addEventListener('click', (e) => {
+            e.preventDefault();
+            aiToolsDiv.classList.toggle('d-none');
+            toggleLink.querySelector('span').textContent =
+                aiToolsDiv.classList.contains('d-none') ? 'Show AI Tools' : 'Hide AI Tools';
+        });
+    </script>
+
+
+
 
     <script>
         document.querySelector('.navbar-toggler').addEventListener('click', function () {
