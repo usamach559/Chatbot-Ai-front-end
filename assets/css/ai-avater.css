@@ -2742,7 +2742,8 @@ input::placeholder {
     height: 40px;
 
 }
-.Sketch-to-Image{
+
+.Sketch-to-Image {
     font-family: 'Poppins-Regular';
     font-size: 16px;
     font-weight: 400;
@@ -2752,11 +2753,13 @@ input::placeholder {
     text-decoration-skip-ink: none;
     color: rgba(58, 56, 134, 1);
 }
+
 .custom-image-container {
     position: relative;
     overflow: hidden;
-  }
-  .custom-hover-overlay {
+}
+
+.custom-hover-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -2769,11 +2772,13 @@ input::placeholder {
     opacity: 0;
     border-radius: 24px;
     transition: opacity 0.3s ease;
-  }
-  .custom-image-container:hover .custom-hover-overlay {
+}
+
+.custom-image-container:hover .custom-hover-overlay {
     opacity: 1;
-  }
-  .custom-hover-icon {
+}
+
+.custom-hover-icon {
     width: 40px;
     height: 40px;
     background-color: white;
@@ -2786,8 +2791,9 @@ input::placeholder {
     font-size: 16px;
     color: black;
     text-decoration: none;
-  }
-  .custom-hover-icon-last {
+}
+
+.custom-hover-icon-last {
     width: 40px;
     height: 40px;
     background-color: rgba(255, 16, 0, 1);
@@ -2800,4 +2806,139 @@ input::placeholder {
     font-size: 16px;
     color: black;
     text-decoration: none;
-  }
+}
+
+.modal-content-img-gene {
+    padding: 10px 10px;
+    border-radius: 24px;
+}
+
+.generated-images-modal {
+    width: 388px;
+    height: 388px;
+    border-radius: 24px;
+
+}
+
+.modal-heading-img-gene {
+    font-family: 'Poppins-Regular';
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 0.6666666865348816px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(0, 122, 255, 1) !important;
+}
+
+.btn-close {
+    background-color: rgba(151, 151, 151, 1);
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.prompt-btn-model {
+    font-family: 'Poppins-Regular';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background-color: rgba(130, 128, 255, 1) !important;
+    border-radius: 24px;
+    padding: 10px 20px;
+    color: white !important;
+
+}
+
+.under-promt-btn-para span {
+    font-family: 'Poppins-Regular';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.modal-sub-row-col {
+    background-color: rgba(241, 241, 241, 1) !important;
+    border-radius: 24px;
+    padding: 10px 20px;
+    max-width: 201px;
+    width: 100%;
+}
+
+.modal-sub-row-col .first-date-heading {
+    font-family: 'Poppins-Regular';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(58, 56, 134, 1);
+}
+.modal-sub-row-col .first-number-heading {
+    font-family: 'Poppins-Regular';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(58, 56, 134, 1);
+}
+.modal-content-img-gene .image-container {
+    position: relative; 
+}
+
+.modal-content-img-gene .icon-container {
+    position: absolute;
+    bottom: 50px;
+    right: 20px;
+    transform: translate(-50%); 
+}
+@media (max-width:1200px) {
+    .modal-content-img-gene .icon-container {
+        position: absolute;
+        bottom: 94px;
+        right: 7px;
+        transform: translate(-50%); 
+    }
+}
+@media (max-width:992px) {
+    .modal-content-img-gene .icon-container {
+        position: absolute;
+        bottom: 31px;
+        right: 44px;
+        transform: translate(-50%); 
+    }
+}
+.modal-content-img-gene .bottom-right-icon {
+    width: 40px; 
+    height: 40px; 
+    cursor: pointer; 
+}
+.modal-content-img-gene .modal-btn {
+
+    font-family: 'Poppins-Regular';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    border-radius: 24px;
+    padding: 10px 20px;
+}
+
+.modal-content-img-gene .modal-btn-first {
+    border: 1px solid rgba(0, 122, 255, 1) !important;
+}
+.modal-content-img-gene .modal-btn-second {
+    background-color: rgba(130, 128, 255, 1) !important;
+    color: white !important;
+    
+}
