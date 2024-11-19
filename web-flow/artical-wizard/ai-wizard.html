@@ -302,7 +302,7 @@
                         AI Article Wizard
                     </div>
                 </div>
-                
+
                 <div class=" d-flex justify-content-end col-lg-6  ">
                     <div class="button-container">
                         <button class="btn dashboard-btn-second">
@@ -314,100 +314,174 @@
             </div>
         </div>
         <div class="container px-4">
-            <div class="row aritcal-section-main  d-flex justify-content-center">
-                <div class="col-12 social-section-in-wizard d-flex justify-content-center flex-wrap">
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-2 ">
-                        <div class="section-number-main d-flex">
-                            <p class="number-section-para active">1</p>
-                            <p class="name-section-para ms-3">Topic</p>
-                            <i class="bi bi-chevron-right ms-3"></i>
+            <div class="row aritcal-section-main  ">
+                <div class="col-12 social-section-in-wizard flex-wrap">
+                    <!-- Tab Navigation -->
+                    <ul class="nav nav-tabs flex-wrap d-flex justify-content-between" id="wizardTabs" role="tablist">
+                        <li class="nav-item col-12 col-sm-6 col-md-4 col-lg-2" role="presentation">
+                            <button class="nav-link active" id="topic-tab" data-bs-toggle="tab" data-bs-target="#topic"
+                                type="button" role="tab" aria-controls="topic" aria-selected="true">
+                                <div class="section-number-main d-flex">
+                                    <p class="number-section-para ">1</p>
+                                    <p class="name-section-para ms-3">Topic</p>
+                                    <i class="bi bi-chevron-right ms-3"></i>
+                                </div>
+                            </button>
+                        </li>
+                        <li class="nav-item col-12 col-sm-6 col-md-4 col-lg-2" role="presentation">
+                            <button class="nav-link" id="company-tab" data-bs-toggle="tab" data-bs-target="#company"
+                                type="button" role="tab" aria-controls="company" aria-selected="false">
+                                <div class="section-number-main d-flex">
+                                    <p class="number-section-para">2</p>
+                                    <p class="name-section-para ms-2">Company</p>
+                                    <i class="bi bi-chevron-right ms-2"></i>
+                                </div>
+                            </button>
+                        </li>
+                        <li class="nav-item col-12 col-sm-6 col-md-4 col-lg-2" role="presentation">
+                            <button class="nav-link" id="campaign-tab" data-bs-toggle="tab" data-bs-target="#campaign"
+                                type="button" role="tab" aria-controls="campaign" aria-selected="false">
+                                <div class="section-number-main d-flex">
+                                    <p class="number-section-para">3</p>
+                                    <p class="name-section-para ms-2">Campaign</p>
+                                    <i class="bi bi-chevron-right ms-1"></i>
+                                </div>
+                            </button>
+                        </li>
+                        <li class="nav-item col-12 col-sm-6 col-md-4 col-lg-2" role="presentation">
+                            <button class="nav-link" id="content-tab" data-bs-toggle="tab" data-bs-target="#content"
+                                type="button" role="tab" aria-controls="content" aria-selected="false">
+                                <div class="section-number-main d-flex">
+                                    <p class="number-section-para">4</p>
+                                    <p class="name-section-para ms-2">Content</p>
+                                    <i class="bi bi-chevron-right ms-2"></i>
+                                </div>
+                            </button>
+                        </li>
+                        <li class="nav-item col-12 col-sm-6 col-md-4 col-lg-2" role="presentation">
+                            <button class="nav-link" id="review-tab" data-bs-toggle="tab" data-bs-target="#review"
+                                type="button" role="tab" aria-controls="review" aria-selected="false">
+                                <div class="section-number-main d-flex">
+                                    <p class="number-section-para">5</p>
+                                    <p class="name-section-para ms-3">Review</p>
+                                    <i class="bi bi-chevron-right ms-3"></i>
+                                </div>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Tab Content -->
+                <div class="tab-content mt-3" id="wizardTabContent">
+                    <div class="tab-pane fade show active" id="topic" role="tabpanel" aria-labelledby="topic-tab">
+                        <div class="row d-flex justify-content-center mb-4">
+                            <div class="col-12 col-md-10 col-lg-6 select-platform-card ">
+                                <label class="wizrd-section-main-para mb-3  ">
+                                    Topic
+                                </label>
+                                <div class="input-contianer">
+        
+                                    <textarea name="" placeholder="What is this article about?"
+                                        class="form-control wizard-inputs"></textarea>
+                                </div>
+                                <label class="wizrd-section-main-para mb-3  mt-3 ">
+                                    Number of Keywords
+                                </label>
+                                <div class="input-contianer">
+                                    <input type="text" placeholder="Enter Here." class="form-control wizard-inputs-second">
+                                </div>
+                                <div class="row d-flex justify-content-center mt-4  ">
+                                    <div class="col-lg-4">
+                                        <hr>
+                                    </div>
+                                    <div class="col-lg-3 mt-1">
+                                        <p class="hr-text">Advanced options</p>
+                                    </div>
+        
+                                    <div class="col-lg-4">
+                                        <hr>
+                                    </div>
+        
+                                </div>
+                                <div class="mt-4 mb-4">
+                                    <a href="#" class="btn social-btn-second">
+                                        Generate Keywords
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-2 ">
-                        <div class="section-number-main d-flex">
-                            <p class="number-section-para">2</p>
-                            <p class="name-section-para ms-2">Company</p>
-                            <i class="bi bi-chevron-right ms-2"></i>
+                    <div class="tab-pane fade" id="company" role="tabpanel" aria-labelledby="company-tab">
+                        <div class="row d-flex justify-content-center mb-4">
+                            <div class="col-12 col-md-10 col-lg-6 select-platform-card ">
+                                <label class="wizrd-section-main-para mb-3  ">
+                                    Topic
+                                </label>
+                                <div class="input-contianer">
+        
+                                    <textarea name="" placeholder="What is this article about?"
+                                        class="form-control wizard-inputs"></textarea>
+                                </div>
+                                <label class="wizrd-section-main-para mb-3  mt-3 ">
+                                    Number of Keywords
+                                </label>
+                                <div class="input-contianer">
+                                    <input type="text" placeholder="Enter Here." class="form-control wizard-inputs-second">
+                                </div>
+                                <div class="row d-flex justify-content-center mt-4  ">
+                                    <div class="col-lg-4">
+                                        <hr>
+                                    </div>
+                                    <div class="col-lg-3 mt-1">
+                                        <p class="hr-text">Advanced options</p>
+                                    </div>
+        
+                                    <div class="col-lg-4">
+                                        <hr>
+                                    </div>
+        
+                                </div>
+                                <div class="mt-4 mb-4">
+                                    <a href="#" class="btn social-btn-second">
+                                        Generate Keywords
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-2 ">
-                        <div class="section-number-main d-flex">
-                            <p class="number-section-para">3</p>
-                            <p class="name-section-para ms-2">Campaign</p>
-                            <i class="bi bi-chevron-right ms-1"></i>
-                        </div>
+                    <div class="tab-pane fade" id="campaign" role="tabpanel" aria-labelledby="campaign-tab">
+                        <p>This is the Campaign section content.</p>
                     </div>
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-2 ">
-                        <div class="section-number-main d-flex">
-                            <p class="number-section-para">4</p>
-                            <p class="name-section-para ms-2">Content</p>
-                            <i class="bi bi-chevron-right ms-2"></i>
-                        </div>
+                    <div class="tab-pane fade" id="content" role="tabpanel" aria-labelledby="content-tab">
+                        <p>This is the Content section content.</p>
                     </div>
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-2 ">
-                        <div class="section-number-main d-flex">
-                            <p class="number-section-para">5</p>
-                            <p class="name-section-para ms-3">Review</p>
-                            <i class="bi bi-chevron-right ms-3"></i>
-                        </div>
+                    <div class="tab-pane fade" id="review" role="tabpanel" aria-labelledby="review-tab">
+                        <p>This is the Review section content.</p>
                     </div>
                 </div>
-                <div class="row d-flex justify-content-center mb-4">
-                    <div class="col-12 col-md-10 col-lg-6 select-platform-card ">
-                        <label class="wizrd-section-main-para mb-3  ">
-                            Topic
-                        </label>
-                        <div class="input-contianer">
-                            
-                            <textarea name="" placeholder="What is this article about?" class="form-control wizard-inputs"></textarea>
-                        </div>
-                        <label class="wizrd-section-main-para mb-3  mt-3 ">
-                            Number of Keywords
-                        </label>
-                        <div class="input-contianer">
-                            <input type="text" placeholder="Enter Here." class="form-control wizard-inputs-second">
-                        </div>
-                        <div class="row d-flex justify-content-center mt-4  ">
-                            <div class="col-lg-4">
-                                <hr>
-                            </div>
-                            <div class="col-lg-3 mt-1">
-                                <p class="hr-text">Advanced options</p>
-                            </div>
 
-                            <div class="col-lg-4">
-                                <hr>
-                            </div>
-
-                        </div>
-                        <div class="mt-4 mb-4">
-                            <a href="#" class="btn social-btn-second">
-                                Generate Keywords
-                            </a>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </div>
 
-        
+
         <div class="container">
             <div class="row d-flex justify-content-center">
                 <div class="input-wrapper-wizard mt-4 ">
                     <input type="text" class="text-field-wizard form-control">
-                    <button class="action-button-wizard">  
+                    <button class="action-button-wizard">
                         <img src="../../assets/svg/Plus (1) 1.svg" alt="">
                         Add</button>
                 </div>
             </div>
             <div class="row px-3">
                 <h3 class="unselect-article mt-3">
-                    Unselect all 
+                    Unselect all
                 </h3>
             </div>
-            
-            
-            
+
+
+
         </div>
         <div class="container">
             <div class="grid-container">

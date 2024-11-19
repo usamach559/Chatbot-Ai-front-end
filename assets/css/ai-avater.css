@@ -342,8 +342,16 @@ textarea {
     border-radius: 50%;
     aspect-ratio: 1 / 1;
 }
+.nav-tabs .nav-item .active{
+    background-color: none !important;
+}
+.nav-tabs .nav-link.active {
+    color: inherit; /* Use the default text color */
+    background-color: transparent; /* No background color */
+    border-color: transparent; /* No border color */
+}
 
-.section-number-main .active {
+.active  .number-section-para  {
     background-color: #3A3886;
     color: white !important;
 
@@ -717,8 +725,8 @@ textarea {
     padding-top: 10px;
     padding-left: 10px;
     border-radius: 24px;
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
     gap: 40px;
     width: 100%;
     /* Adjusted to 100% to match the width */
