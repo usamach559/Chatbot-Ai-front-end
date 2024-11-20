@@ -439,6 +439,19 @@ textarea {
     text-align: center;
 
 }
+.social-btn-third {
+    background-color: white !important;
+    padding: 10px 20px;
+    border-radius: 24px !important;
+    width: 100%;
+    color: black !important;
+    font-family: 'Poppins-Regular';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+
+}
 .social-btn-second-video {
     background-color: #8280FF !important;
     padding: 10px 20px;
