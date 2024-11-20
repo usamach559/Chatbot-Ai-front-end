@@ -770,11 +770,17 @@ textarea {
 
 .wizard-inputs {
     background-color: transparent !important;
-    padding: 10px 10px;
+    padding: 10px 20px;
     border: 1px solid #FFFFFF;
     border-radius: 24px;
-
-
+    font-family: 'Poppins-regular' !important;
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    line-height: 18px !important;
+    text-align: left !important;
+    text-underline-position: from-font !important;
+    text-decoration-skip-ink: none !important;
+    color: rgba(58, 56, 134, 1) !important;
 }
 
 .input-contianer-color-picker,
@@ -3041,8 +3047,27 @@ input::placeholder {
     border-radius: 50%;
     width: 20px;
     height: 20px;
-    border: none !important;
+    padding: 0;
+    border: none;
+    appearance: none;
+    cursor: pointer;
 }
+
+.color-picker::-webkit-color-swatch {
+    border-radius: 50%;
+    border: none;
+}
+
+.color-picker::-webkit-color-swatch-wrapper {
+    padding: 0;
+}
+
+.color-picker-wrapper {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
 
 .chat-bot-design {
     font-family: 'Poppins-Regular';
