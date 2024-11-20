@@ -381,13 +381,13 @@
                                     <input type="text" placeholder="Enter Here." class="form-control wizard-inputs-second">
                                 </div>
                                 <div class="row d-flex justify-content-center mt-4  ">
-                                    <div class="col-lg-4">
+                                    <div class="col-lg-3">
                                         <hr>
                                     </div>
-                                    <div class="col-lg-3 mt-1">
+                                    <div class="col-lg-4 mt-1">
                                         <p class="hr-text" onclick="toggleAdvancedOptions()">Advanced options</p>
                                     </div>
-                                    <div class="col-lg-4">
+                                    <div class="col-lg-3">
                                         <hr>
                                     </div>
         
@@ -469,14 +469,14 @@
                                     <input type="text"  class="form-control wizard-inputs-second">
                                 </div>
                                 <div class="row d-flex justify-content-center mt-4  ">
-                                    <div class="col-lg-4">
+                                    <div class="col-lg-3">
                                         <hr>
                                     </div>
-                                    <div class="col-lg-3 mt-1">
+                                    <div class="col-lg-4 mt-1">
                                         <p class="hr-text" onclick="toggleSecondAdvancedOptions()">Advanced options</p>
                                     </div>
         
-                                    <div class="col-lg-4">
+                                    <div class="col-lg-3">
                                         <hr>
                                     </div>
         
@@ -525,7 +525,89 @@
                         </div>
                     </div>
                     <div class="tab-pane fade" id="campaign" role="tabpanel" aria-labelledby="campaign-tab">
-                        <p>This is the Campaign section content.</p>
+                        <div class="row d-flex justify-content-center mb-4">
+                            <div class="col-12 col-md-10 col-lg-6 select-platform-card ">
+                                <label class="wizrd-section-main-para mb-3  ">
+                                    Title Topic(Optional)
+                                </label>
+                                <div class="input-contianer">
+        
+                                    <textarea name="" placeholder="Explain your idea"
+                                        class="form-control wizard-inputs"></textarea>
+                                </div>
+                                <label class="wizrd-section-main-para mb-3  mt-3 ">
+                                    Number of Keywords
+                                </label>
+                                <div class="input-contianer">
+                                    <input type="text" placeholder="Enter Here." class="form-control wizard-inputs-second">
+                                </div>
+                                <label class="wizrd-section-main-para mb-3  mt-3 ">
+                                    Number of Titles
+                                </label>
+                                <div class="input-contianer">
+                                    <input type="text"  class="form-control wizard-inputs-second">
+                                </div>
+                                <label class="wizrd-section-main-para mb-3  mt-3 ">
+                                    Maximum Title Length
+                                </label>
+                                <div class="input-contianer">
+                                    <input type="text"  class="form-control wizard-inputs-second">
+                                </div>
+                                <div class="row d-flex justify-content-center mt-4  ">
+                                    <div class="col-lg-3">
+                                        <hr>
+                                    </div>
+                                    <div class="col-lg-4 mt-1">
+                                        <p class="hr-text" onclick="toggleSecondAdvancedOptions()">Advanced options</p>
+                                    </div>
+        
+                                    <div class="col-lg-3">
+                                        <hr>
+                                    </div>
+        
+                                </div>
+                                <div id="secondAdvancedOptions" style="display: none;">
+                                    <div class="form-group">
+                                        <label class="wizrd-section-main-para mb-3 mt-3">
+                                            Language
+                                        </label>
+                                        <select class="form-select wizard-inputs-second" id="exampleSelect2" aria-label="Default select example">
+                                            <option selected>English (USA)</option>
+                                            <option value="1">Option</option>
+                                            <option value="2">Option</option>
+                                            <option value="3">Option</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="wizrd-section-main-para mb-3 mt-3">
+                                            Blog post length
+                                        </label>
+                                        <select class="form-select wizard-inputs-second" id="exampleSelect2" aria-label="Default select example">
+                                            <option selected>800</option>
+                                            <option value="1">Option</option>
+                                            <option value="2">Option</option>
+                                            <option value="3">Option</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="wizrd-section-main-para mb-3 mt-3">
+                                            Creativity
+                                        </label>
+                                        <select class="form-select wizard-inputs-second" id="exampleSelect2" aria-label="Default select example">
+                                            <option selected>800</option>
+                                            <option value="1">Option</option>
+                                            <option value="2">Option</option>
+                                            <option value="3">Option</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="mt-4 mb-4">
+                                    <a href="#" class="btn social-btn-second">
+                                        Generate Keywords
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="tab-pane fade" id="content" role="tabpanel" aria-labelledby="content-tab">
                         <p>This is the Content section content.</p>
