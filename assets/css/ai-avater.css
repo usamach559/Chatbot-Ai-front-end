@@ -1945,11 +1945,8 @@ tbody tr:last-of-type td:last-child {
     border: 1px solid white;
     padding: 10px 30px;
     display: flex;
+    width: 100%;
     align-items: center;
-
-}
-
-.bank-name-heading-affiliates {
     font-family: 'Poppins-Regular';
     font-size: 16px;
     font-weight: 400;
@@ -1957,6 +1954,7 @@ tbody tr:last-of-type td:last-child {
     text-align: left;
     color: #3A3886 !important;
 }
+
 
 
 /* .chat-traning-step-one */
