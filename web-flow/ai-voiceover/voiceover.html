@@ -303,7 +303,7 @@
                         AIVoiceover
                     </div>
                 </div>
-                
+
                 <div class="d-flex justify-content-end col-lg-6 ">
                     <div class="button-container">
                         <button class="btn dashboard-btn-first">
@@ -359,20 +359,47 @@
                     <div class="voiceover-section-second-heading">
                         Speeches
                     </div>
-                    <button class="btn dashboard-btn-second ms-4">
+                    <button class="btn dashboard-btn-second ms-4" data-bs-toggle="collapse" data-bs-target="#targetDiv">
                         <img src="../../assets/svg/Plus (1) 1.svg" alt="">
                         Add New
                     </button>
                 </div>
+                <div id="targetDiv" class="collapse mt-3 row">
+                    <div class="col-lg-8">
+                        <div class="d-flex align-items-center gap-3">
+                            <span class="us-lily-fe">US LILY (Female)</span>
+                            <div class="custom-select-style-voiceover">
+                                <select class="form-select custom-select-style-voiceover " id="customSelect">
+                                    <option selected>Say -as</option>
+                                    <option value="1">Option 1</option>
+                                    <option value="2">Option 2</option>
+                                    <option value="3">Option 3</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 d-flex justify-content-end gap-3">
+                        <a>
+                            <img src="../../assets/svg(2)/Frame 427318624.svg" alt="">
+                        </a>
+                        <a>
+                            <img src="../../assets/svg(2)/Vector (42).svg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-lg-12 mt-4">
+                        <textarea class="form-control custom-textarea-style-voiceover" placeholder="Write Something..." name="" id="" cols="30" rows="3"></textarea>
+                    </div>
+                </div>
+                
                 <div class="mt-4 ">
                     <button class="btn dashboard-btn-second ">
                         <img src="../../assets/svg/Plus (1) 1.svg" alt="">
-                       <span class="px-1"> Generate </span>
+                        <span class="px-1"> Generate </span>
                     </button>
                 </div>
             </div>
         </div>
-        
+
 
 
 
@@ -384,6 +411,15 @@
             const sidebar = document.querySelector('.sidebar');
             sidebar.classList.toggle('show');
         });
+        function toggleDiv() {
+            const targetDiv = document.getElementById('targetDiv');
+            if (targetDiv.style.display === 'none' || targetDiv.style.display === '') {
+                targetDiv.style.display = 'block'; // Show the div
+            } else {
+                targetDiv.style.display = 'none'; // Hide the div
+            }
+        }
+
     </script>
 
 

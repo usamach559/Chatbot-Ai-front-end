@@ -3024,3 +3024,45 @@ input::placeholder {
     color: rgba(151, 151, 151, 1) !important;
 
 }
+
+.us-lily-fe {
+    font-family: 'Poppins-Regular';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.custom-select-style-voiceover {
+    border-radius: 24px;
+    max-width: 230px !important;
+    width: 100% !important;
+    display: block;
+    box-sizing: border-box;
+    font-family: 'Poppins-Regular';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.custom-textarea-style-voiceover {
+    border-radius: 24px;
+    padding: 20px 20px;
+    display: block;
+    box-sizing: border-box;
+    font-family: 'Poppins-Regular';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color:  rgba(151, 151, 151, 1);
+}
