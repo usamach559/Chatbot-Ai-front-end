@@ -439,6 +439,19 @@ textarea {
     text-align: center;
 
 }
+.social-btn-second-video {
+    background-color: #8280FF !important;
+    padding: 10px 20px;
+    border-radius: 24px !important;
+    width: 70%;
+    color: white !important;
+    font-family: 'Poppins-Regular';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+
+}
 
 /* connect-social account page  */
 .select-platform-card-connect {
@@ -926,6 +939,13 @@ textarea {
     border-radius: 24px;
 }
 
+.file-uploadcontainer-video {
+    border: 1px dashed white;
+    height: 202px;
+    padding: 10px;
+    border-radius: 24px;
+}
+
 .wizard-upload-text {
     font-family: 'Poppins-Regular';
     font-size: 12px;
@@ -934,6 +954,17 @@ textarea {
     text-align: center;
     color: #3A3886;
     width: 50%;
+    margin: auto;
+}
+
+.wizard-upload-text-video {
+    font-family: 'Poppins-Regular';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: center;
+    color: #3A3886;
+    width: 80%;
     margin: auto;
 }
 
@@ -3064,5 +3095,23 @@ input::placeholder {
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    color:  rgba(151, 151, 151, 1);
+    color: rgba(151, 151, 151, 1);
+}
+
+.label-video-input  span{
+    font-family: 'Poppins-Regular';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(0, 122, 255, 1) !important;
+}
+.ai-video-input{
+    background-color: transparent !important;
+    border: 1px solid white ;
+    border-radius: 24px;
+    width: 100%;
+    padding: 10px 20px;
 }
