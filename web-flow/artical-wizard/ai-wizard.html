@@ -333,7 +333,7 @@
                                 type="button" role="tab" aria-controls="company" aria-selected="false">
                                 <div class="section-number-main d-flex">
                                     <p class="number-section-para">2</p>
-                                    <p class="name-section-para ms-2">Company</p>
+                                    <p class="name-section-para ms-2">Title</p>
                                     <i class="bi bi-chevron-right ms-2"></i>
                                 </div>
                             </button>
@@ -343,7 +343,7 @@
                                 type="button" role="tab" aria-controls="campaign" aria-selected="false">
                                 <div class="section-number-main d-flex">
                                     <p class="number-section-para">3</p>
-                                    <p class="name-section-para ms-2">Campaign</p>
+                                    <p class="name-section-para ms-2">Outline</p>
                                     <i class="bi bi-chevron-right ms-1"></i>
                                 </div>
                             </button>
@@ -353,21 +353,12 @@
                                 type="button" role="tab" aria-controls="content" aria-selected="false">
                                 <div class="section-number-main d-flex">
                                     <p class="number-section-para">4</p>
-                                    <p class="name-section-para ms-2">Content</p>
+                                    <p class="name-section-para ms-2">Image</p>
                                     <i class="bi bi-chevron-right ms-2"></i>
                                 </div>
                             </button>
                         </li>
-                        <li class="nav-item col-12 col-sm-6 col-md-4 col-lg-2" role="presentation">
-                            <button class="nav-link" id="review-tab" data-bs-toggle="tab" data-bs-target="#review"
-                                type="button" role="tab" aria-controls="review" aria-selected="false">
-                                <div class="section-number-main d-flex">
-                                    <p class="number-section-para">5</p>
-                                    <p class="name-section-para ms-3">Review</p>
-                                    <i class="bi bi-chevron-right ms-3"></i>
-                                </div>
-                            </button>
-                        </li>
+                        
                     </ul>
                 </div>
 
@@ -482,13 +473,48 @@
                                         <hr>
                                     </div>
                                     <div class="col-lg-3 mt-1">
-                                        <p class="hr-text">Advanced options</p>
+                                        <p class="hr-text" onclick="toggleSecondAdvancedOptions()">Advanced options</p>
                                     </div>
         
                                     <div class="col-lg-4">
                                         <hr>
                                     </div>
         
+                                </div>
+                                <div id="secondAdvancedOptions" style="display: none;">
+                                    <div class="form-group">
+                                        <label class="wizrd-section-main-para mb-3 mt-3">
+                                            Language
+                                        </label>
+                                        <select class="form-select wizard-inputs-second" id="exampleSelect2" aria-label="Default select example">
+                                            <option selected>English (USA)</option>
+                                            <option value="1">Option</option>
+                                            <option value="2">Option</option>
+                                            <option value="3">Option</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="wizrd-section-main-para mb-3 mt-3">
+                                            Blog post length
+                                        </label>
+                                        <select class="form-select wizard-inputs-second" id="exampleSelect2" aria-label="Default select example">
+                                            <option selected>800</option>
+                                            <option value="1">Option</option>
+                                            <option value="2">Option</option>
+                                            <option value="3">Option</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="wizrd-section-main-para mb-3 mt-3">
+                                            Creativity
+                                        </label>
+                                        <select class="form-select wizard-inputs-second" id="exampleSelect2" aria-label="Default select example">
+                                            <option selected>800</option>
+                                            <option value="1">Option</option>
+                                            <option value="2">Option</option>
+                                            <option value="3">Option</option>
+                                        </select>
+                                    </div>
                                 </div>
                                 <div class="mt-4 mb-4">
                                     <a href="#" class="btn social-btn-second">
@@ -646,6 +672,14 @@
         advancedOptions.style.display = 'block'; // Show the div
     } else {
         advancedOptions.style.display = 'none'; // Hide the div
+    }
+}
+function toggleSecondAdvancedOptions() {
+    const secondAdvancedOptions = document.getElementById('secondAdvancedOptions');
+    if (secondAdvancedOptions.style.display === 'none' || secondAdvancedOptions.style.display === '') {
+        secondAdvancedOptions.style.display = 'block'; // Show the div
+    } else {
+        secondAdvancedOptions.style.display = 'none'; // Hide the div
     }
 }
 

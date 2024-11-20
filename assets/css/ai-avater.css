@@ -835,6 +835,8 @@ textarea {
     line-height: 26px;
     text-align: center;
     color: #3A3886 !important;
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .input-wrapper-wizard {
