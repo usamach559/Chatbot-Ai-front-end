@@ -1666,6 +1666,8 @@ tbody tr:last-of-type td:last-child {
     line-height: 21px;
     text-align: left;
     color: #15476D;
+    text-decoration: none !important;
+    font-style: none;
 }
 
 
