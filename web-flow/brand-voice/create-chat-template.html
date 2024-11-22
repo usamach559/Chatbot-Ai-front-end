@@ -320,17 +320,17 @@
                                 type="button" role="tab" aria-controls="topic" aria-selected="true">
                                 <div class="section-number-main d-flex">
                                     <p class="number-section-para ">1</p>
-                                    <p class="name-section-para ms-3">Topic</p>
+                                    <p class="name-section-para ms-3">Company</p>
                                     <i class="bi bi-chevron-right ms-3"></i>
                                 </div>
                             </button>
                         </li>
-                        <li class="nav-item col-12 col-sm-6 col-md-4 col-lg-2" role="presentation">
+                        <li class="nav-item col-12 col-sm-6 col-md-4 col-lg-4" role="presentation">
                             <button class="nav-link" id="company-tab" data-bs-toggle="tab" data-bs-target="#company"
                                 type="button" role="tab" aria-controls="company" aria-selected="false">
                                 <div class="section-number-main d-flex">
                                     <p class="number-section-para">2</p>
-                                    <p class="name-section-para ms-2">Title</p>
+                                    <p class="name-section-para ms-2">Products or Services</p>
                                     <i class="bi bi-chevron-right ms-2"></i>
                                 </div>
                             </button>
@@ -347,19 +347,27 @@
                             <div class="col-12 col-md-10 col-lg-6 select-platform-card ">
                                 
                                 <label class="wizrd-section-main-para mb-3  mt-3 ">
-                                    Template Name  <img src="../../assets/svg(2)/Vector (41).svg" alt="Seed Icon" class="img-fluid ms-2">
+                                    Company Name  <img src="../../assets/svg(2)/Vector (41).svg" alt="Seed Icon" class="img-fluid ms-2">
                                 </label>
                                 <div class="input-contianer">
-                                    <input type="text"placeholder="Enter Title Here"
+                                    <input type="text"placeholder="The official name of your business entity."
                                         class="form-control wizard-inputs-second">
                                 </div>
                                 <label class="wizrd-section-main-para mb-3  mt-3 ">
-                                    Category  <img src="../../assets/svg(2)/Vector (41).svg" alt="Seed Icon" class="img-fluid ms-2">
+                                    Industry  <img src="../../assets/svg(2)/Vector (41).svg" alt="Seed Icon" class="img-fluid ms-2">
                                 </label>
                                 <div class="input-contianer">
                                     <input type="text" placeholder="Paste the Svg code Here"
                                         class="form-control wizard-inputs-second">
                                 </div>
+                                <div class="mt-3">
+                                    <button type="button" class="btn dashboard-btn-second ms-3" data-bs-toggle="modal"
+                                    data-bs-target="#addNewModal">
+                                    <img src="../../assets/svg/Plus (1) 1.svg" alt="" />
+                                    Add New
+                                </button>
+                                </div>
+                               
                                 <label class="wizrd-section-main-para mb-3  mt-3 ">
                                     Template Short Name<img src="../../assets/svg(2)/Vector (41).svg" alt="Seed Icon" class="img-fluid ms-2">
                                 </label>
@@ -367,30 +375,51 @@
                                     <input type="text" placeholder="Paste the Svg code Here"
                                         class="form-control wizard-inputs-second">
                                 </div>
+                                <p class="text-brand-voice mt-2">Hold cmd(on mac) or ctrl(on pc) to select multiple items.</p>
                                 
                                 <label class="wizrd-section-main-para mb-3 mt-3  ">
-                                    Template Description <img src="../../assets/svg(2)/Vector (41).svg" alt="Seed Icon" class="img-fluid">
+                                     Description <img src="../../assets/svg(2)/Vector (41).svg" alt="Seed Icon" class="img-fluid">
                                 </label>
                                 <div class="input-contianer">
                                     <textarea name="" placeholder="Enter Title Here"
                                         class="form-control wizard-inputs" rows="4"></textarea>
                                 </div>
                                 <label class="wizrd-section-main-para mb-3  mt-3 ">
-                                    First Message<img src="../../assets/svg(2)/Vector (41).svg" alt="Seed Icon" class="img-fluid ms-2">
+                                    Website<img src="../../assets/svg(2)/Vector (41).svg" alt="Seed Icon" class="img-fluid ms-2">
                                 </label>
                                 <div class="input-contianer">
-                                    <input type="text" placeholder="Paste the Svg code Here"
+                                    <input type="text" placeholder="Enter the URL of your company’s website."
+                                        class="form-control wizard-inputs-second">
+                                </div>  
+                                <label class="wizrd-section-main-para mb-3 mt-3  ">
+                                    Tagline <img src="../../assets/svg(2)/Vector (41).svg" alt="Seed Icon" class="img-fluid">
+                                </label>
+                                <div class="input-contianer">
+                                    <input type="text" placeholder="Write a catchy tagline for your company."
                                         class="form-control wizard-inputs-second">
                                 </div>  
                                 
-                                 
-                                <label class="wizrd-section-main-para mb-3 mt-3  ">
-                                    Instrauctions <img src="../../assets/svg(2)/Vector (41).svg" alt="Seed Icon" class="img-fluid">
-                                </label>
-                                <div class="input-contianer">
-                                    <textarea name="" placeholder="Enter Description Here"
-                                        class="form-control wizard-inputs" rows="4"></textarea>
+                                <div class="mt-4">
+                                    <h1 class="first-code-heading">Tone of Voice</h1>
+                                    <div class="textarea-container-code">
+                                        <div class="form-group">
+                                            <select class="form-select code-select-input" id="exampleSelect"
+                                                aria-label="Default select example">
+                                                <option selected>Professional</option>
+                                                <option value="1">Option 1</option>
+                                                <option value="2">Option 2</option>
+                                                <option value="3">Option 3</option>
+                                            </select>
+                                        </div>
+                                    </div>
                                 </div>
+                                <label class="wizrd-section-main-para mb-3 mt-3  ">
+                                    Target Audience <img src="../../assets/svg(2)/Vector (41).svg" alt="Seed Icon" class="img-fluid">
+                               </label>
+                               <div class="input-contianer">
+                                   <textarea name="" placeholder="Describe the primary demographic or audience  your company is targeting."
+                                       class="form-control wizard-inputs" rows="4"></textarea>
+                               </div>
                                 <label class="wizrd-section-main-para mb-3  mt-3 ">
                                     Avatar<img src="../../assets/svg(2)/Vector (41).svg" alt="Seed Icon" class="img-fluid ms-2">
                                 </label>
@@ -398,6 +427,7 @@
                                     <input type="file" placeholder="Paste the Svg code Here"
                                         class="form-control wizard-inputs-second">
                                 </div> 
+                                
                                 <label class="wizrd-section-main-para mb-3  mt-3 ">
                                     Template color <span class="ms-3"><img src="../../assets/svg(2)/Vector (41).svg" alt=""></span>
                                 </label>
@@ -420,54 +450,27 @@
                             <div class="col-12 col-md-10 col-lg-6 select-platform-card ">
                                 
                                 <label class="wizrd-section-main-para mb-3  mt-3 ">
-                                    Human Name   <img src="../../assets/svg(2)/Vector (41).svg" alt="Seed Icon" class="img-fluid ms-2">
+                                     Name   <img src="../../assets/svg(2)/Vector (41).svg" alt="Seed Icon" class="img-fluid ms-2">
                                 </label>
                                 <div class="input-contianer">
                                     <input type="text"placeholder="Enter  Here"
                                         class="form-control wizard-inputs-second">
                                 </div>
                                 <label class="wizrd-section-main-para mb-3  mt-3 ">
-                                    Template Role  <img src="../../assets/svg(2)/Vector (41).svg" alt="Seed Icon" class="img-fluid ms-2">
+                                    Type  <img src="../../assets/svg(2)/Vector (41).svg" alt="Seed Icon" class="img-fluid ms-2">
                                 </label>
                                 <div class="input-contianer">
-                                    <input type="text" placeholder="Finance Expert"
+                                    <input type="text" placeholder="Product"
                                         class="form-control wizard-inputs-second">
                                 </div>
                                 <label class="wizrd-section-main-para mb-3  mt-3 ">
-                                    Helps with  <img src="../../assets/svg(2)/Vector (41).svg" alt="Seed Icon" class="img-fluid ms-2">
+                                    Key Features  <img src="../../assets/svg(2)/Vector (41).svg" alt="Seed Icon" class="img-fluid ms-2">
                                 </label>
                                 <div class="input-contianer">
-                                    <input type="text" placeholder="I can help you with managing your finance"
-                                        class="form-control wizard-inputs-second">
+                                    <textarea name="" placeholder="Explain the key features of your Product/Service."
+                                    class="form-control wizard-inputs" rows="4"></textarea>
                                 </div>
-                                <div class="mt-4">
-                                    <h1 class="first-code-heading">Chatbot Training</h1>
-                                    <div class="textarea-container-code">
-                                        <div class="form-group">
-                                            <select class="form-select code-select-input" id="exampleSelect"
-                                                aria-label="Default select example">
-                                                <option selected>Select Chatbot</option>
-                                                <option value="1">Option 1</option>
-                                                <option value="2">Option 2</option>
-                                                <option value="3">Option 3</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="mt-4">
-                                    <h1 class="first-code-heading">AI Assistant</h1>
-                                    <div class="textarea-container-code">
-                                        <div class="form-group">
-                                            <select class="form-select code-select-input" id="exampleSelect"
-                                                aria-label="Default select example">
-                                                <option selected>Select Assistant</option>
-                                                <option value="1">Option 1</option>
-                                                <option value="2">Option 2</option>
-                                                <option value="3">Option 3</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
+                                
 
                                 <div class="mt-4 mb-4">
                                     <a href="#" class="btn social-btn-second">
@@ -504,27 +507,39 @@
 
 
 
+        <div class="modal fade" id="addNewModal" tabindex="-1" aria-labelledby="addNewModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content docoment-modal" style="border-radius: 24px; padding: 20px 20px;">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h5 class="modal-title" id="addNewModalLabel">New Value</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
 
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg modal-dialog-centered">
-                <div class="modal-content modal-content-img-gene">
-                    <div class="modal-header">
-                        <h5 class="modal-title modal-heading-img-gene" id="exampleModalLabel">Add Keyword</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
+                <!-- Modal Body -->
+                <div class="modal-body">
+                    <form>
                         <div class="mb-3">
-                            <input type="text" class="form-control ps-5" id="newItemName" placeholder="New Keyword">
+                            <input type="text" class="form-control ps-5" id="newItemName"
+                                placeholder="New title">
                         </div>
-                    </div>
-                    <div class="d-flex justify-content-end gap-3">
-                        <button type="button" class="btn modal-btn modal-btn-first"
-                            data-bs-dismiss="modal">Cancel</button>
-                        <button type="button" class="btn modal-btn modal-btn-second">Done</button>
-                    </div>
+                    </form>
+                </div>
+
+                <!-- Modal Footer -->
+                <div class="d-flex justify-content-end gap-3">
+                    <button type="button" class="btn modal-btn modal-btn-first"
+                        data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn modal-btn modal-btn-second" >
+                        Add
+                    </button>
+
+
                 </div>
             </div>
         </div>
+    </div>
 
 
 

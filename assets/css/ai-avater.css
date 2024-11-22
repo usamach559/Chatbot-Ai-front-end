@@ -838,6 +838,16 @@ input[type="file"]::file-selector-button {
     text-decoration-skip-ink: none !important;
     color: rgba(58, 56, 134, 1) !important;
 }
+.text-brand-voice{font-family: 'Poppins-regular' !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    line-height: 18px !important;
+    text-align: center !important;
+    text-underline-position: from-font !important;
+    text-decoration-skip-ink: none !important;
+    color: rgba(58, 56, 134, 1) !important;
+}
+
 
 .input-contianer-color-picker {
     padding: 10px 20px;
