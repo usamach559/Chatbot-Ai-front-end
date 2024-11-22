@@ -344,7 +344,7 @@
                     <div class="dashboard-heading">AI RSS</div>
                 </div>
                 <div class="col-lg-6 d-flex justify-content-end">
-                <div class="button-container">
+                    <div class="button-container">
                         <button class="btn dashboard-btn-first">My Documents</button>
                         <button class="btn dashboard-btn-second">
                             <img src="../../assets/svg/Plus (1) 1.svg" alt="" />
@@ -391,44 +391,49 @@
                             </div>
                             <div class="check-boxes">
                                 <label class="switch">
-                                    <input type="checkbox" />
+                                    <input type="checkbox" id="includeBrandCheckbox" />
                                     <span class="slider"></span>
                                 </label>
                             </div>
                         </div>
-                        
                     </div>
-                    <div class="mt-4">
-                        <h1 class="first-code-heading ">Select Company
-                             <img src="../../assets/svg(2)/Frame 427318440 (4).svg" class="ms-2" alt=""> 
-                        </h1>
-                        <div class="textarea-container-code">
-                            <div class="form-group">
-                                <select class="form-select code-select-input" id="exampleSelect"
-                                    aria-label="Default select example">
-                                    <option selected>Select Company</option>
-                                    <option value="1">Option 1</option>
-                                    <option value="2">Option 2</option>
-                                    <option value="3">Option 3</option>
-                                </select>
+                    <!-- Div to toggle -->
+                    <div id="toggleBrandDiv" style="display: none;">
+                        <div class="mt-4">
+                            <h1 class="first-code-heading ">Select Company
+                                <img src="../../assets/svg(2)/Frame 427318440 (4).svg" class="ms-2" alt="">
+                            </h1>
+                            <div class="textarea-container-code">
+                                <div class="form-group">
+                                    <select class="form-select code-select-input" id="exampleSelect"
+                                        aria-label="Default select example">
+                                        <option selected>Select Company</option>
+                                        <option value="1">Option 1</option>
+                                        <option value="2">Option 2</option>
+                                        <option value="3">Option 3</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-4">
+                            <h1 class="first-code-heading ">Select Product/Service
+                            </h1>
+                            <div class="textarea-container-code">
+                                <div class="form-group">
+                                    <select class="form-select code-select-input" id="exampleSelect"
+                                        aria-label="Default select example">
+                                        <option selected>Select Product</option>
+                                        <option value="1">Option 1</option>
+                                        <option value="2">Option 2</option>
+                                        <option value="3">Option 3</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="mt-4">
-                        <h1 class="first-code-heading ">Select Product/Service
-                        </h1>
-                        <div class="textarea-container-code">
-                            <div class="form-group">
-                                <select class="form-select code-select-input" id="exampleSelect"
-                                    aria-label="Default select example">
-                                    <option selected>Select Product</option>
-                                    <option value="1">Option 1</option>
-                                    <option value="2">Option 2</option>
-                                    <option value="3">Option 3</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
+
+
+
                     <div class="mt-4">
                         <div class="ai-youtube-checkboxes d-flex justify-content-between">
                             <div class="text mt-3">
@@ -436,31 +441,27 @@
                             </div>
                             <div class="check-boxes">
                                 <label class="switch">
-                                    <input type="checkbox" />
+                                    <input type="checkbox" id="generatePostsCheckbox" />
                                     <span class="slider"></span>
                                 </label>
                             </div>
                         </div>
-                        
                     </div>
-                    <div class="mt-4">
-                        <h1 class="first-code-heading">Number of Results    </h1>
-                        <div class="input-container">
-                            <input type="text" class="form-control form-control-connect" placeholder="Enter YouTube video URL">
-                        </div> 
+                    <div id="togglePostsDiv" style="display: none;">
+                        <div class="mt-4">
+                            <h1 class="first-code-heading">Number of Results </h1>
+                            <div class="input-container">
+                                <input type="number" class="form-control form-control-connect"
+                                    placeholder="Enter YouTube video URL">
+                            </div>
+                        </div>
                     </div>
+
                     <div class="mt-4">
                         <h1 class="first-code-heading">URL</h1>
-                        <div class="textarea-container-code">
-                            <div class="form-group">
-                                <select class="form-select code-select-input" id="exampleSelect"
-                                    aria-label="Default select example">
-                                    <option selected>Prepapare a blog post</option>
-                                    <option value="1">Option 1</option>
-                                    <option value="2">Option 2</option>
-                                    <option value="3">Option 3</option>
-                                </select>
-                            </div>
+                        <div class="input-container">
+                            <input type="number" class="form-control form-control-connect"
+                                placeholder="Enter YouTube video URL">
                         </div>
                     </div>
                     <div class="mt-4">
@@ -496,9 +497,9 @@
                             <h1 class="first-code-heading">Max Length</h1>
                             <div class="input-container">
                                 <input type="number" class="form-control form-control-connect">
-                            </div> 
+                            </div>
                         </div>
-                        
+
                     </div>
                     <div class="mt-4 row">
                         <div class="col-lg-6">
@@ -529,8 +530,8 @@
                                 </div>
                             </div>
                         </div>
-                        
-                        
+
+
                     </div>
 
                     <div class="mt-4">
@@ -538,7 +539,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 main-coloms-code main-coloms-code-second">
-                    
+
                     <div class="mt-4 row">
                         <div class="d-flex justify-content-start">
                             <img src="../../assets/svg/Vector (9).svg" alt="" />
@@ -550,13 +551,14 @@
                             <img src="../../assets/svg/Vector (7.5).svg" class="ms-2" alt="" />
                         </div>
                     </div>
-                    
+
                     <div class="mt-2 row mb-4">
                         <div class="d-flex flex-wrap justify-content-end align-items-center">
-                          
+
                             <div class="textarea-container-youtube mb-2 mb-md-0">
                                 <div class="form-group">
-                                    <select class="form-select ai-youtube-select-input" id="exampleSelect" aria-label="Default select example">
+                                    <select class="form-select ai-youtube-select-input" id="exampleSelect"
+                                        aria-label="Default select example">
                                         <option selected>Div</option>
                                         <option value="1">Option 1</option>
                                         <option value="2">Option 2</option>
@@ -564,7 +566,7 @@
                                     </select>
                                 </div>
                             </div>
-                            
+
                             <img src="../../assets/svg(2)/Vector (14).svg" class="ms-3 mb-2 mb-md-0" alt="" />
                             <p class="ms-3 mt-3 second-heading-code  ">Rewrite</p>
                             <img src="../../assets/svg(2)/ai 1.svg" class="ms-2 mb-2 mb-md-0" alt="" />
@@ -578,8 +580,8 @@
                             <img src="../../assets/svg(2)/Vector (17).svg" class="ms-2 mb-2 mb-md-0" alt="" />
                         </div>
                     </div>
-                    
-                    
+
+
 
                     <div class="code-appear-place d-flex align-items-center">
                         <h1 class="code-text ms-5 mt-2">Untitled Document</h1>
@@ -597,7 +599,23 @@
                 sidebar.classList.toggle("show");
             });
     </script> -->
+    <script>
+        function toggleDiv(checkboxId, divId) {
+            document.getElementById(checkboxId).addEventListener("change", function () {
+                const toggleDiv = document.getElementById(divId);
+                if (this.checked) {
+                    toggleDiv.style.display = "block"; // Show the div
+                } else {
+                    toggleDiv.style.display = "none"; // Hide the div
+                }
+            });
+        }
 
+        // Apply the toggle logic to both checkboxes
+        toggleDiv("includeBrandCheckbox", "toggleBrandDiv");
+        toggleDiv("generatePostsCheckbox", "togglePostsDiv");
+
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="../../assets/js/script.js"></script>
 </body>
