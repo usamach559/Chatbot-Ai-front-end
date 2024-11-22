@@ -797,6 +797,31 @@ textarea {
     text-decoration-skip-ink: none !important;
     color: rgba(58, 56, 134, 1) !important;
 }
+input[type="file"] {
+    background-color: transparent !important;
+    padding: 10px 10px;
+    border: 1px solid #FFFFFF;
+    border-radius: 24px;
+    color: #FFFFFF; /* Text color for the button text */
+    cursor: pointer;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+    background-color: transparent;
+    border: none;
+    margin-left: 5px;
+    padding: 0;
+}
+
+input[type="file"]::file-selector-button {
+    background-color: transparent;
+    padding: 5px ;
+    border: 1px solid #FFFFFF;
+    border-radius: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: inherit; 
+}
 
 .input-contianer-color-picker,
 .wizard-inputs-second {
