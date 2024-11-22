@@ -80,5 +80,19 @@ function togglePassword() {
 
 
 // end
+        function toggleDiv(checkboxId, divId) {
+            document.getElementById(checkboxId).addEventListener("change", function () {
+                const toggleDiv = document.getElementById(divId);
+                if (this.checked) {
+                    toggleDiv.style.display = "block"; // Show the div
+                } else {
+                    toggleDiv.style.display = "none"; // Hide the div
+                }
+            });
+        }
+
+        // Apply the toggle logic to both checkboxes
+        toggleDiv("includeBrandCheckbox", "toggleBrandDiv");
+        toggleDiv("generatePostsCheckbox", "togglePostsDiv");
 
 
