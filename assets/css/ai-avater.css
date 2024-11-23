@@ -768,7 +768,7 @@ textarea {
 .aritcal-section-main {
     background: linear-gradient(135deg, #ffffff45 14%, #ffffff45 35%);
     border-radius: 24px;
-    padding: 0;
+    padding: 40px 40px;
     margin: auto;
     width: 100%;
     /* Keep the width consistent */
@@ -801,7 +801,7 @@ textarea {
 input[type="file"] {
     background-color: transparent !important;
     padding: 10px 10px;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #FFFFFF ;
     border-radius: 24px;
     color: #FFFFFF;
     /* Text color for the button text */
@@ -809,10 +809,10 @@ input[type="file"] {
 }
 
 input[type="file"]::-webkit-file-upload-button {
-    background-color: transparent;
-    border: none;
-    margin-left: 5px;
-    padding: 0;
+    background-color: transparent !important;
+    border:1px solid black !important ;
+    margin-left: 5px !important;
+    padding: 5px !important;
 }
 
 input[type="file"]::file-selector-button {
@@ -820,9 +820,15 @@ input[type="file"]::file-selector-button {
     padding: 5px;
     border: 1px solid #FFFFFF;
     border-radius: 24px;
-    color: #FFFFFF;
-    cursor: pointer;
-    font-family: inherit;
+    font-family: 'Poppins-regular' !important;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(58, 56, 134, 1) !important;
+    
 }
 
 .input-contianer-color-picker,
@@ -3230,5 +3236,5 @@ input::placeholder {
 }
 .grammar-document-dropdown{
     cursor: pointer;
-    
+
 }
