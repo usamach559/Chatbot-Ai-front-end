@@ -797,12 +797,14 @@ textarea {
     text-decoration-skip-ink: none !important;
     color: rgba(58, 56, 134, 1) !important;
 }
+
 input[type="file"] {
     background-color: transparent !important;
     padding: 10px 10px;
     border: 1px solid #FFFFFF;
     border-radius: 24px;
-    color: #FFFFFF; /* Text color for the button text */
+    color: #FFFFFF;
+    /* Text color for the button text */
     cursor: pointer;
 }
 
@@ -815,12 +817,12 @@ input[type="file"]::-webkit-file-upload-button {
 
 input[type="file"]::file-selector-button {
     background-color: transparent;
-    padding: 5px ;
+    padding: 5px;
     border: 1px solid #FFFFFF;
     border-radius: 24px;
     color: #FFFFFF;
     cursor: pointer;
-    font-family: inherit; 
+    font-family: inherit;
 }
 
 .input-contianer-color-picker,
@@ -838,7 +840,9 @@ input[type="file"]::file-selector-button {
     text-decoration-skip-ink: none !important;
     color: rgba(58, 56, 134, 1) !important;
 }
-.text-brand-voice{font-family: 'Poppins-regular' !important;
+
+.text-brand-voice {
+    font-family: 'Poppins-regular' !important;
     font-size: 14px !important;
     font-weight: 400 !important;
     line-height: 18px !important;
@@ -2476,7 +2480,7 @@ span {
     border-radius: 24px;
 }
 
-.message-time-date  {
+.message-time-date {
     font-family: 'Poppins-Regular';
     font-size: 12px;
     font-weight: 400;
@@ -2487,7 +2491,7 @@ span {
 }
 
 @media (min-width:992px) {
-    .messages-container-chat-container{
+    .messages-container-chat-container {
         height: 700px !important;
         overflow-y: auto;
         overflow-x: hidden;
@@ -2496,6 +2500,7 @@ span {
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
     }
+
     /* .messages-container-chat {
         height: 700px !important;
         overflow-y: auto;
@@ -2535,7 +2540,7 @@ span {
 
     .messages-container-chat-container {
         height: 700px;
-      
+
         overflow-y: auto !important;
         overflow-x: hidden;
 
@@ -2622,10 +2627,10 @@ span {
 
 
 
-.user-message-container{
+.user-message-container {
     margin-top: 0px;
     margin-bottom: 0px;
-    height:min-content;
+    height: min-content;
 }
 
 .custom-select-vision-ai {
@@ -3196,4 +3201,34 @@ input::placeholder {
     border-radius: 24px;
     width: 100%;
     padding: 10px 20px;
+}
+
+@media (min-width:992px) {
+    .language-first-row {
+        width: 47% !important;
+    }
+}
+
+.language-first-row {
+    background-color: white !important;
+    border-radius: 24px;
+    padding: 1px 30px;
+    padding-top: 7px ;
+    display: flex;
+    align-items: center;
+}
+
+.heading-language {
+    font-family: 'Poppins-Regular';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(58, 56, 134, 1) !important;
+}
+.grammar-document-dropdown{
+    cursor: pointer;
+    
 }
