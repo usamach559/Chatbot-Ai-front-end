@@ -1303,6 +1303,12 @@ input[type="file"]::file-selector-button {
     width: 200px;
     height: 150px;
 }
+.document-dropdown-language {
+    border-radius: 24px;
+    padding: 10px;
+    width: 220px;
+    height: 150px;
+}
 
 .document-dropdown-para {
     font-family: 'Poppins-Regular';
