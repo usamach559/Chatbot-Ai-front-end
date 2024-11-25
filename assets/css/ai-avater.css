@@ -702,7 +702,7 @@ textarea {
     flex-grow: 1;
     margin: 0;
     padding: 0;
-    width: calc(100% - 80px);
+    width: calc(100% - 50px);
     /* Space for the left and right icons */
 }
 
