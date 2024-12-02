@@ -440,6 +440,20 @@ textarea {
 
 }
 
+.social-btn-second-account {
+    background-color: #FF1000 !important;
+    padding: 10px 20px;
+    border-radius: 24px !important;
+    width: 100%;
+    color: white !important;
+    font-family: 'Poppins-Regular';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+
+}
+
 .social-btn-third {
     background-color: white !important;
     padding: 10px 20px;
@@ -800,8 +814,9 @@ textarea {
 
 input[type="file"] {
     background-color: transparent !important;
-    padding: 10px 10px;
-    border: 1px solid #FFFFFF ;
+    padding: 3px 10px;
+    padding-top: 10px;
+    border: 1px solid #FFFFFF;
     border-radius: 24px;
     color: rgba(0, 0, 0, 1);
     cursor: pointer;
@@ -809,7 +824,7 @@ input[type="file"] {
 
 input[type="file"]::-webkit-file-upload-button {
     background-color: transparent !important;
-    border:1px solid black !important ;
+    border: 1px solid black !important;
     margin-left: 5px !important;
     margin-bottom: 1px !important;
 
@@ -829,7 +844,7 @@ input[type="file"]::file-selector-button {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: rgba(58, 56, 134, 1) !important;
-    
+
 }
 
 .input-contianer-color-picker,
@@ -1304,6 +1319,7 @@ input[type="file"]::file-selector-button {
     width: 200px;
     height: 150px;
 }
+
 .document-dropdown-language {
     border-radius: 24px;
     padding: 10px;
@@ -2095,6 +2111,16 @@ tbody tr:last-of-type td:last-child {
     text-decoration: none;
 }
 
+.traning-label-create-account {
+    font-family: 'Poppins-Regular';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+    color: #007AFF;
+    text-decoration: none;
+}
+
 .traning-label-second {
     font-family: 'Poppins-Regular';
     font-size: 12px;
@@ -2682,6 +2708,7 @@ span {
     width: 100%;
     border-radius: 24px;
 }
+
 .image-upload-input-image {
     border: 1px dashed white;
     padding-top: 50px;
@@ -3233,7 +3260,7 @@ input::placeholder {
     background-color: white !important;
     border-radius: 24px;
     padding: 1px 30px;
-    padding-top: 7px ;
+    padding-top: 7px;
     display: flex;
     align-items: center;
 }
@@ -3248,10 +3275,13 @@ input::placeholder {
     text-decoration-skip-ink: none;
     color: rgba(58, 56, 134, 1) !important;
 }
-.grammar-document-dropdown{
+
+.grammar-document-dropdown {
     cursor: pointer;
 
-}/* General Tab Styling */
+}
+
+/* General Tab Styling */
 .cumtom-tab-row-image,
 .cumtom-tab-row-image-first,
 .cumtom-tab-row-image-last {
@@ -3284,22 +3314,26 @@ input::placeholder {
     background-color: #6c63ff !important;
     color: white !important;
 }
+
 @media (max-width:992px) {
-  .custom-image-col {
-   border-radius: 24px;
-   margin-top: 10px;
-}  
+    .custom-image-col {
+        border-radius: 24px;
+        margin-top: 10px;
+    }
 }
+
 /* Tab Pane Styling */
 .custom-tab-pane {
-    display: none; /* Hide by default */
+    display: none;
+    /* Hide by default */
 }
 
 .custom-tab-pane.active {
-    display: block; /* Show only the active content */
+    display: block;
+    /* Show only the active content */
 }
 
-.imag-upload-image-heading{
+.imag-upload-image-heading {
     font-family: 'Poppins-Regular';
     font-size: 18px;
     font-weight: 600;
@@ -3307,7 +3341,8 @@ input::placeholder {
     letter-spacing: 0.6666666865348816px;
     text-align: left;
 }
-.connect-update-btn-image{
+
+.connect-update-btn-image {
     background-color: #8280FF !important;
     width: 100% !important;
     color: white !important;
@@ -3321,7 +3356,8 @@ input::placeholder {
     text-decoration: none;
 
 }
-.add-image-input{
+
+.add-image-input {
     background-color: #8280FF !important;
     padding: 10px 20px;
     border-radius: 24px;
@@ -3332,4 +3368,139 @@ input::placeholder {
     text-align: center;
     text-decoration: none;
     color: white !important;
+}
+
+.second-para-account {
+    font-family: 'Poppins-Regular';
+
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.navbar-search-input-container {
+    position: relative;
+}
+
+.navbar-search-icon {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: grey;
+    font-size: 1rem;
+    cursor: pointer;
+    pointer-events: auto;
+}
+
+.navbar-search-input {
+    width: 100% !important;
+    background-color: transparent !important;
+    height: 48px;
+    border-radius: 24px !important;
+    padding-right: 1rem;
+    border: 1px solid rgba(238, 238, 238, 1) !important;
+    border-radius: 7px;
+}
+
+.third-row-login {
+    width: 100% !important;
+    gap: 20px;
+}
+
+/* @media (max-width: 500px) {
+    .login-form-input {
+        min-width: 303px !important;
+        width: 100% !important;
+    }
+
+    .navbar-search-input-container {
+        min-width: 303px !important;
+        width: 100% !important;
+    }
+
+    .third-row-login {
+        width: 100% !important;
+        gap: 20px;
+    }
+} */
+.two-factor-para-first {
+    font-family: 'Poppins-Regular';
+    font-size: 12px;
+    font-weight: 700;
+    /* line-height: 18px; */
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.two-factor-para-second {
+    font-family: 'Poppins-Regular';
+    font-size: 12px;
+    font-weight: 400;
+    /* line-height: 18px; */
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #3A3886;
+    /* width: 90%; */
+
+}
+
+.two-factor-first-label {
+    font-family: 'Poppins-Regular';
+
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #007AFF;
+}
+
+.two-factor-links-copy-container {
+    background-color: white !important;
+    border-radius: 24px;
+    max-width: 243px;
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.two-factor-first-input {
+    background-color: transparent !important;
+    border: none;
+    padding: 0;
+}
+
+.two-factor-img {
+    max-width: 236px;
+    max-height: 244px;
+    width: 100%;
+    height: 100%;
+
+
+
+}
+
+.delete-account-btn-account {
+    font-family: 'Poppins-Regular';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: -0.05em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FF1000;
+    text-decoration: none;
 }

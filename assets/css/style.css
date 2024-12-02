@@ -161,6 +161,7 @@ body {
     border-radius: 20px !important;
     padding-left: 40px !important;
 }
+
 .search-input-chat {
     border-radius: 20px;
     padding-left: 50px !important;
@@ -306,12 +307,13 @@ body {
     line-height: 24px;
     text-align: left;
     border: none !important;
-   
+
 
 }
+
 @media (max-width: 992px) {
-   
-    
+
+
     .btn-language {
         font-family: 'Poppins-Regular';
         font-size: 16px;
@@ -320,7 +322,7 @@ body {
         text-align: left;
         border: none !important;
         margin-left: 20px;
-    
+
     }
 }
 
@@ -361,6 +363,7 @@ body {
     text-align: left !important;
 
 }
+
 .dashboard-btn-third {
     background-color: #8280FF !important;
     padding: 10px 20px !important;
@@ -457,7 +460,7 @@ body {
     align-items: center;
     padding: 0 15px;
     margin: 0 auto;
-    
+
 }
 
 
@@ -643,4 +646,49 @@ body {
     text-align: left;
     color: #8280FF !important;
 
+}
+
+.status-voice-clone-languages {
+
+
+    font-family: 'Poppins-Regular';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #3A3886;
+    text-decoration: none !important;
+    /* font-style: none; */
+    width: 100%;
+    /* background-color: #EBF6FF !important; */
+    border: 1px solid #007AFF !important;
+    padding: 10px 65px;
+    border-radius: 24px;
+    display: flex;
+}
+
+.social-btn-second-languages {
+    background-color: #8280FF !important;
+    padding: 10px 20px;
+    border-radius: 24px !important;
+    width: 100%;
+    color: white !important;
+    font-family: 'Poppins-Regular';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    width: 50%;
+}
+
+.account-deletion-para {
+    font-family: 'Poppins-Regular';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000 !important;
+    width: 80%;
 }
