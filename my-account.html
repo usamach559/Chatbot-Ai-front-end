@@ -10,6 +10,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.12/css/intlTelInput.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../../assets/css/style.css">
     <link rel="stylesheet" href="../../assets/css/ai-avater.css">
     <style>
@@ -371,8 +373,8 @@
 
             <div class="container px-3">
                 <div class="row  d-flex justify-content-center">
-                    <div class="col-lg-6 chat-traning-step-one-main-row-col mt-5 mb-5">
-                        <label class="traning-step-one-url-heading  mb-2">Old Password</label>
+                    <div class="col-lg-6 chat-traning-step-one-main-row-col-account mt-5 mb-5">
+                        <label class="traning-step-one-url-heading  mb-2">Avatar</label>
                         <div class="input-contianer">
                             <input type="file" placeholder="Paste the Svg code Here"
                                 class="form-control wizard-inputs-second ">
@@ -383,7 +385,8 @@
                         </div>
                         <label class="traning-step-one-url-heading  mb-2 mt-5">Phone Number</label>
                         <div class="input-container-traning mt-2">
-                            <input type="text" class="traning-input-main form-control" placeholder="Enter Here " />
+                            <input type="tel" id="phoneInput" class="traning-input-main form-control" placeholder="Enter phone number">
+
                         </div>
                         <label class="traning-step-one-url-heading  mb-2 mt-5">Email</label>
                         <div class="input-container-traning mt-2">
@@ -420,7 +423,7 @@
                             </div>
                         </div>
                         <div class="mt-4 d-flex justify-content-between">
-                            <h1 class="first-code-heading">Country</h1>
+                            <h1 class="first-code-heading">Forget Password                           </h1>
                             <a href="#" class="delete-account-btn-account">Delete Account</a>
                         </div>
 
@@ -449,6 +452,33 @@
             sidebar.classList.toggle('show');
         });
     </script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.12/js/intlTelInput.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.12/js/utils.min.js"></script>
+   <script>
+       const phoneInput = document.querySelector("#phoneInput");
+
+       // Initialize intlTelInput with full width and country code
+       const iti = window.intlTelInput(phoneInput, {
+           initialCountry: "auto", // Automatically detect user's country
+           separateDialCode: true, // Shows the country code separately
+           utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.12/js/utils.min.js", // Validation utils
+           geoIpLookup: function (callback) {
+               fetch('https://ipinfo.io/json?token=<YOUR_TOKEN>') // Replace <YOUR_TOKEN> with your IPInfo token
+                   .then(response => response.json())
+                   .then(data => {
+                       const countryCode = data && data.country ? data.country : "us";
+                       callback(countryCode);
+                   })
+                   .catch(() => callback("us"));
+           }
+       });
+
+       // Log the selected country code on change
+       phoneInput.addEventListener("countrychange", function () {
+           console.log("Selected country:", iti.getSelectedCountryData());
+       });
+   </script>
 
 
 </body>

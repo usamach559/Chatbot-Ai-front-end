@@ -824,7 +824,7 @@ input[type="file"] {
 
 input[type="file"]::-webkit-file-upload-button {
     background-color: transparent !important;
-    border: 1px solid black !important;
+    border: 1px solid white !important;
     margin-left: 5px !important;
     margin-bottom: 1px !important;
 
@@ -1996,7 +1996,7 @@ tbody tr:last-of-type td:last-child {
 }
 
 .form-control-affiliates-second-row {
-    padding-right: 40px;
+    padding-right: 60px;
 }
 
 .input-icon-affiliates {
@@ -2050,6 +2050,11 @@ tbody tr:last-of-type td:last-child {
 .chat-traning-step-one-main-row-col {
     background: linear-gradient(to right, rgba(130, 128, 255, 0.2), rgba(130, 128, 255, 0.08));
     padding: 20px 20px;
+    border-radius: 24px;
+}
+.chat-traning-step-one-main-row-col-account {
+    background: linear-gradient(to right, rgba(130, 128, 255, 0.2), rgba(130, 128, 255, 0.08));
+    padding: 20px 30px;
     border-radius: 24px;
 }
 
@@ -2150,6 +2155,7 @@ tbody tr:last-of-type td:last-child {
     border-radius: 24px;
     padding-right: 50px;
     border: 1px solid white;
+    width: 100%;
 }
 
 .traning-input-main::placeholder {
@@ -3503,4 +3509,12 @@ input::placeholder {
     text-decoration-skip-ink: none;
     color: #FF1000;
     text-decoration: none;
+}
+.iti {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+.iti--separate-dial-code .iti__selected-flag {
+    background-color: transparent;
 }
