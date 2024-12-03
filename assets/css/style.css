@@ -161,6 +161,11 @@ body {
     border-radius: 20px !important;
     padding-left: 40px !important;
 }
+.search-input-second {
+    width: 100% !important;
+    border-radius: 20px !important;
+    padding-left: 40px !important;
+}
 
 .search-input-chat {
     border-radius: 20px;
@@ -175,6 +180,13 @@ body {
 .search-icon {
     position: absolute;
     left: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: grey;
+}
+.search-icon-second {
+    position: absolute;
+    left: 15px;
     top: 50%;
     transform: translateY(-50%);
     color: grey;

@@ -3221,6 +3221,23 @@ input::placeholder {
     text-decoration-skip-ink: none;
 
 }
+.custom-select-style-voiceover-second {
+    border-radius: 24px;
+    /* max-width: 230px !important; */
+    width: 100% !important;
+    display: block;
+    box-sizing: border-box;
+    font-family: 'Poppins-Regular';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    border: none;
+    padding: 10px 20px;
+
+}
 
 .custom-textarea-style-voiceover {
     border-radius: 24px;
@@ -3517,4 +3534,86 @@ input::placeholder {
 }
 .iti--separate-dial-code .iti__selected-flag {
     background-color: transparent;
+}
+
+
+.custom-dropdown {
+    width: 225px;
+    padding: 10px 0;
+    border-radius: 22px;
+    background-color: #ffffff;
+    border: none;
+    font-family: 'Arial', sans-serif;
+}
+
+.admin-label-new-first{
+    font-family: 'Poppins-Regular';
+font-size: 12px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0.6666666865348816px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: black;
+
+}
+.email-admin-new-first{
+    font-family: 'Poppins-Regular';
+font-size: 10px;
+font-weight: 400;
+/* line-height: 22px; */
+letter-spacing: 0.6666666865348816px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+@media (max-width: 383px) {
+    .custom-dropdown-profile[data-bs-popper] {
+        top: 100%;
+        left: auto;
+        margin-top: var(--bs-dropdown-spacer);
+    }
+}
+.index-summarize-text{
+    background-color: #5DB9FF !important;
+    padding: 5px 20px;
+    border-radius: 24px;
+    font-family: 'Poppins-Regular';
+font-size: 12px;
+font-weight: 600;
+line-height: 18px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+
+}
+.docment-card-index {
+    margin-top: 30px;
+    background: linear-gradient(135deg, rgba(130, 128, 255, 0.35) 0%, rgba(130, 128, 255, 0.14) 100%);
+    padding: 0px 10px;
+    border-radius: 24px;
+    width: 190px !important;
+}
+.document-data-card-para-index{
+    font-family: 'Poppins-Regular';
+font-size: 10px;
+font-weight: 500;
+line-height: 15px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #000000;
+}
+.document-data-card-date-index{
+    font-family: 'Poppins-Regular';
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
 }
