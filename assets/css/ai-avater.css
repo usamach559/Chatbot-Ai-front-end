@@ -1173,6 +1173,34 @@ input[type="file"]::file-selector-button {
     text-align: left;
 }
 
+.document-table-head-index {
+    background-color: rgba(130, 128, 255, 1) !important;
+    color: white !important;
+    font-family: 'Poppins-Regular';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+
+}
+
+.document-table-head-index-second {
+    background-color: rgba(130, 128, 255, 1) !important;
+    color: white !important;
+    font-family: 'Poppins-Regular';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+
+}
+
 .support-request-table-head {
     background-color: rgba(130, 128, 255, 1) !important;
     color: white !important;
@@ -2053,6 +2081,7 @@ tbody tr:last-of-type td:last-child {
     padding: 20px 20px;
     border-radius: 24px;
 }
+
 .chat-traning-step-one-main-row-col-account {
     background: linear-gradient(to right, rgba(130, 128, 255, 0.2), rgba(130, 128, 255, 0.08));
     padding: 20px 30px;
@@ -3222,6 +3251,7 @@ input::placeholder {
     text-decoration-skip-ink: none;
 
 }
+
 .custom-select-style-voiceover-second {
     border-radius: 24px;
     /* max-width: 230px !important; */
@@ -3528,11 +3558,13 @@ input::placeholder {
     color: #FF1000;
     text-decoration: none;
 }
+
 .iti {
     width: 100%;
     position: relative;
     display: inline-block;
 }
+
 .iti--separate-dial-code .iti__selected-flag {
     background-color: transparent;
 }
@@ -3547,29 +3579,31 @@ input::placeholder {
     font-family: 'Arial', sans-serif;
 }
 
-.admin-label-new-first{
+.admin-label-new-first {
     font-family: 'Poppins-Regular';
-font-size: 12px;
-font-weight: 400;
-line-height: 22px;
-letter-spacing: 0.6666666865348816px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-color: black;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.6666666865348816px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: black;
 
 }
-.email-admin-new-first{
+
+.email-admin-new-first {
     font-family: 'Poppins-Regular';
-font-size: 10px;
-font-weight: 400;
-/* line-height: 22px; */
-letter-spacing: 0.6666666865348816px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
+    font-size: 10px;
+    font-weight: 400;
+    /* line-height: 22px; */
+    letter-spacing: 0.6666666865348816px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
 
 }
+
 @media (max-width: 383px) {
     .custom-dropdown-profile[data-bs-popper] {
         top: 100%;
@@ -3577,20 +3611,22 @@ text-decoration-skip-ink: none;
         margin-top: var(--bs-dropdown-spacer);
     }
 }
-.index-summarize-text{
+
+.index-summarize-text {
     background-color: #5DB9FF !important;
     padding: 5px 20px;
     border-radius: 24px;
     font-family: 'Poppins-Regular';
-font-size: 12px;
-font-weight: 600;
-line-height: 18px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
 
 
 }
+
 .docment-card-index {
     margin-top: 30px;
     background: linear-gradient(135deg, rgba(130, 128, 255, 0.35) 0%, rgba(130, 128, 255, 0.14) 100%);
@@ -3598,17 +3634,19 @@ text-decoration-skip-ink: none;
     border-radius: 24px;
     width: 190px !important;
 }
-.document-data-card-para-index{
+
+.document-data-card-para-index {
     font-family: 'Poppins-Regular';
-font-size: 10px;
-font-weight: 500;
-line-height: 15px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-color: #000000;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 15px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
 }
-.document-data-card-date-index{
+
+.document-data-card-date-index {
     font-family: 'Poppins-Regular';
     font-size: 10px;
     font-weight: 400;
@@ -3616,5 +3654,24 @@ color: #000000;
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
+
+}
+
+.user-name-index {
+    background-color: #8280FF !important;
+    width: 40px;
+    height: 40px;
+    border-radius: 200px;
+    padding: 8px 15px;
+    font-family: 'Poppins-Regular';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: 0.6666666865348816px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: White;
     
+
 }
