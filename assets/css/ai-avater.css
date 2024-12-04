@@ -3652,7 +3652,9 @@ input::placeholder {
     background: linear-gradient(135deg, rgba(130, 128, 255, 0.35) 0%, rgba(130, 128, 255, 0.14) 100%);
     padding: 0px 10px;
     border-radius: 24px;
-    width: 190px !important;
+   max-width: 190px !important;
+   width: 100%;
+
 }
 
 .document-data-card-para-index {
