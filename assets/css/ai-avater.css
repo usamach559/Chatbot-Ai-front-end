@@ -1269,7 +1269,7 @@ input[type="file"]::file-selector-button {
 
 @media (max-width: 1196px) {
     table {
-        /* display: block; */
+        display: block;
         overflow-x: auto;
 
     }
@@ -2017,16 +2017,18 @@ tbody tr:last-of-type td:last-child {
     background-color: transparent !important;
     border-radius: 24px;
     border: 1px solid white;
-    padding: 10px;
+   
+    &
+     {
+        padding-right: 60px ;
+        padding-left: 20px;
+    }
 }
 
 .input-container {
     position: relative;
 }
 
-.form-control-affiliates-second-row {
-    padding-right: 60px;
-}
 
 .input-icon-affiliates {
     position: absolute;
