@@ -1278,6 +1278,7 @@ input[type="file"]::file-selector-button {
     table {
         display: block;
         overflow-x: auto;
+        width: fit-content !important;
 
     }
 
