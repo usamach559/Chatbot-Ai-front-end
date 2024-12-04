@@ -1584,6 +1584,17 @@ tbody tr:last-of-type td:last-child {
     text-align: left;
     color: rgba(0, 122, 255, 1) !important;
 }
+.first-code-heading-second {
+    font-family: 'Poppins-Regular';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: -0.05em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(0, 122, 255, 1) !important;
+}
 
 .numbers-container-code {
     border: 1px solid rgba(255, 255, 255, 1);
@@ -2086,7 +2097,7 @@ tbody tr:last-of-type td:last-child {
 
 .chat-traning-step-one-main-row-col-account {
     background: linear-gradient(to right, rgba(130, 128, 255, 0.2), rgba(130, 128, 255, 0.08));
-    padding: 20px 30px;
+    padding: 20px 20px;
     border-radius: 24px;
 }
 
