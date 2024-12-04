@@ -1228,6 +1228,13 @@ input[type="file"]::file-selector-button {
     line-height: 22px;
     text-align: left;
 }
+.grammar-document-chat-traning {
+    font-family: 'Poppins-Regular';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: left;
+}
 
 .grammar-description {
     font-family: 'WorkSans-Regular';
