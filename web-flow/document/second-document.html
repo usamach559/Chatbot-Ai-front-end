@@ -336,41 +336,147 @@
         </div>
         <div class="container ">
             <div class="row d-flex flex-wrap align-items-center">
-               
+                <div class="container">
+                    <div class="row  d-flex align-items-center justify-content-between px-lg-0 px-2">
+                        <div
+                            class="col-lg-1 document-card-short-back-icon-container  d-flex justify-content-center align-items-center">
+                            <a href="flow-document.html" class="document-card-short-back-icon">
+                                <i class="bi bi-arrow-left docment-left-arrow-icon"></i>
+                            </a>
+                        </div>
+                        <div
+                            class="col-lg-7 document-card d-flex align-items-center justify-content-between ms-lg-3 ms-0 mt-lg-0 mt-3 mb-lg-0 mb-3">
+                            <div class="d-flex align-items-center">
+                                <img src="../../assets/images/f770fb72c3de8500e017697a5fba2a31.png" class="ms-2"
+                                    height="55px" width="55px" alt="">
+                                <p class="docment-card-name ms-4 mb-0">
+                                    Liqwiz Solution
+                                </p>
+                            </div>
 
-                
+                            <div class="dropup"> <!-- dropup ensures dropdown appears above -->
+                                <!-- SVG Trigger -->
+                                <img src="../../assets/svg/Frame 427318243.svg" alt="" class="dropdown-toggle"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
 
-                
-                        <div class="container">
-                            <div class="row gap-4 d-flex align-items-center">
-                                <div class="col-lg-1 document-card-short-back-icon-container  d-flex justify-content-center align-items-center">
-                                    <a href="flow-document.html" class="document-card-short-back-icon">
-                                        <i class="bi bi-arrow-left docment-left-arrow-icon"></i>
-                                    </a>
+                                <!-- Dropdown Menu -->
+                                <ul class="dropdown-menu document-dropdown">
+                                    <li>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <p class="document-dropdown-para mt-2">
+                                                Rename
+                                            </p>
+                                            <i class="bi bi-pen mt-2"></i>
+                                        </div>
+                                    </li>
+                                    <hr>
+                                    <li>
+                                        <div class="d-flex justify-content-between">
+                                            <p class="document-dropdown-para mt-2">
+                                                Delete
+                                            </p>
+                                            <img src="../../assets/svg/Vector (6).svg" alt="">
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="col-lg-3 align-items-center mt-2 d-flex justify-content-end gap-2 ">
+                            <div class="document-card-icon">
+                                <i class="fas fa-grip-horizontal tab-btn " id="grid-tab"></i>
+                            </div>
+                            <div class="document-card-icon">
+                                <i class="bi bi-grid-fill tab-btn active" id="section-tab"></i>
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+                <!-- Grid Section -->
+                <div id="grid-section" class="content-section" style="display: none;">
+                    <div class="container mt-5">
+                        <div class="row">
+                            <table class="table table-responsive table-borderless">
+                                <thead>
+                                    <tr>
+                                        <th class="document-table-head">Document</th>
+                                        <th class="document-table-head">Document</th>
+                                        <th class="document-table-head">Description</th>
+                                        <th class="document-table-head">Type</th>
+                                        <th class="document-table-head">Date</th>
+                                        <th class="document-table-head">Favourites</th>
+                                        <th class="document-table-head">Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><img src="../../assets/images/Avatar.png" alt="" width="36" height="36">
+                                        </td>
+                                        <td class="grammar-document">Grammar Correction</td>
+                                        <td class="grammar-description">Lorem ipsum dolor sit amet</td>
+                                        <td class="document-type"><span>Grammar Correction</span></td>
+                                        <td class="document-date">2024/10/07</td>
+                                        <td>
+                                            <input type="radio" class="form-check-input ms-2 ms-lg-0" name="" id="">
+                                        </td>
+                                        <td><img src="../../assets/svg/Vector (4).svg" alt=""></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <nav aria-label="Page navigation example  " class="mt-5 mb-5">
+                        <ul class="pagination d-flex justify-content-end  ">
+                            <li class="page-item"><a class="page-link active" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">...</a></li>
+                            <li class="page-item"><a class="page-link" href="#">67</a></li>
+                            <li class="page-item"><a class="page-link" href="#">68</a></li>
+                        </ul>
+                    </nav>
+
+                </div>
+
+                <!-- Second Section -->
+                <div id="second-section" class="content-section" style="display: none;">
+                    <div class="container">
+                        <div class="row gap-3">
+                            <div class="col-lg docment-card ">
+                                <div class="d-flex justify-content-between ">
+                                    <h1 class="document-data-card-heading mt-1">
+                                        AI Rewriter
+                                    </h1>
+                                    <img src="../../assets/svg/Frame 427318309.svg" alt="">
                                 </div>
-                                <div class="col-lg-8 document-card d-flex align-items-center justify-content-between">
-                                    <div class="d-flex align-items-center">
-                                        <img src="../../assets/images/f770fb72c3de8500e017697a5fba2a31.png" class="ms-2"
-                                            height="55px" width="55px" alt="">
-                                        <p class="docment-card-name ms-4 mb-0">
-                                            Liqwiz Solution
-                                        </p>
-                                    </div>
-                                   
+                                <p class="document-data-card-para">
+                                    Lorem ipsum dolor sit amet consectetur. Risus et fringilla diam phasellus
+                                    cursus massa fermentum habitant.
+                                </p>
+                                <div class="d-flex justify-content-between ">
+                                    <p class="document-data-card-date mt-3">
+                                        28 July, 2024
+                                    </p>
                                     <div class="dropup"> <!-- dropup ensures dropdown appears above -->
                                         <!-- SVG Trigger -->
-                                        <img src="../../assets/svg/Frame 427318243.svg" alt=""
-                                            class="dropdown-toggle" data-bs-toggle="dropdown"
-                                            aria-expanded="false">
+                                        <img src="../../assets/svg/Vector (3).svg" alt="" class="dropdown-toggle"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
 
                                         <!-- Dropdown Menu -->
                                         <ul class="dropdown-menu document-dropdown">
                                             <li>
-                                                <div class="d-flex justify-content-between align-items-center">
+                                                <div class="d-flex justify-content-between">
                                                     <p class="document-dropdown-para mt-2">
-                                                        Rename
+                                                        Move to folder
                                                     </p>
-                                                    <i class="bi bi-pen mt-2"></i>
+                                                    <img src="../../assets/svg/Vector (5).svg" alt="">
                                                 </div>
                                             </li>
                                             <hr>
@@ -385,312 +491,196 @@
                                         </ul>
                                     </div>
                                 </div>
-
-                                
-
-                                
-                                <div class="col-lg-2 align-items-center mt-2 d-flex justify-content-end gap-2">
-                                    <div class="document-card-icon">
-                                        <i class="fas fa-grip-horizontal tab-btn " id="grid-tab"></i>
-                                    </div>
-                                    <div class="document-card-icon">
-                                        <i class="bi bi-grid-fill tab-btn active" id="section-tab"></i>
-                                    </div>
-
-                                </div>
-
-
-
                             </div>
-                        </div>
-                        <!-- Grid Section -->
-                        <div id="grid-section" class="content-section" style="display: none;">
-                            <div class="container mt-5">
-                                <div class="row">
-                                    <table class="table table-responsive table-borderless">
-                                        <thead>
-                                            <tr>
-                                                <th class="document-table-head">Document</th>
-                                                <th class="document-table-head">Document</th>
-                                                <th class="document-table-head">Description</th>
-                                                <th class="document-table-head">Type</th>
-                                                <th class="document-table-head">Date</th>
-                                                <th class="document-table-head">Favourites</th>
-                                                <th class="document-table-head">Action</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td><img src="../../assets/images/Avatar.png" alt="" width="36"
-                                                        height="36"></td>
-                                                <td class="grammar-document">Grammar Correction</td>
-                                                <td class="grammar-description">Lorem ipsum dolor sit amet</td>
-                                                <td class="document-type"><span>Grammar Correction</span></td>
-                                                <td class="document-date">2024/10/07</td>
-                                                <td>
-                                                    <input type="radio" class="form-check-input ms-2 ms-lg-0" name=""
-                                                        id="">
-                                                </td>
-                                                <td><img src="../../assets/svg/Vector (4).svg" alt=""></td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                            <div class="col-lg docment-card ">
+                                <div class="d-flex justify-content-between ">
+                                    <h1 class="document-data-card-heading mt-1">
+                                        AI Rewriter
+                                    </h1>
+                                    <img src="../../assets/svg/Frame 427318309.svg" alt="">
+                                </div>
+                                <p class="document-data-card-para">
+                                    Lorem ipsum dolor sit amet consectetur. Risus et fringilla diam phasellus
+                                    cursus massa fermentum habitant.
+                                </p>
+                                <div class="d-flex justify-content-between ">
+                                    <p class="document-data-card-date mt-3">
+                                        28 July, 2024
+                                    </p>
+                                    <div class="dropup"> <!-- dropup ensures dropdown appears above -->
+                                        <!-- SVG Trigger -->
+                                        <img src="../../assets/svg/Vector (3).svg" alt="" class="dropdown-toggle"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+
+                                        <!-- Dropdown Menu -->
+                                        <ul class="dropdown-menu document-dropdown">
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <p class="document-dropdown-para mt-2">
+                                                        Move to folder
+                                                    </p>
+                                                    <img src="../../assets/svg/Vector (5).svg" alt="">
+                                                </div>
+                                            </li>
+                                            <hr>
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <p class="document-dropdown-para mt-2">
+                                                        Delete
+                                                    </p>
+                                                    <img src="../../assets/svg/Vector (6).svg" alt="">
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
-                            <nav aria-label="Page navigation example  " class="mt-5 mb-5">
-                                <ul class="pagination d-flex justify-content-end  ">
-                                    <li class="page-item"><a class="page-link active" href="#">1</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">...</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">67</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">68</a></li>
-                                </ul>
-                            </nav>
-
-                        </div>
-
-                        <!-- Second Section -->
-                        <div id="second-section" class="content-section" style="display: none;">
-                            <div class="container">
-                                <div class="row gap-3">
-                                    <div class="col-lg docment-card ">
-                                        <div class="d-flex justify-content-between ">
-                                            <h1 class="document-data-card-heading mt-1">
-                                                AI Rewriter
-                                            </h1>
-                                            <img src="../../assets/svg/Frame 427318309.svg" alt="">
-                                        </div>
-                                        <p class="document-data-card-para">
-                                            Lorem ipsum dolor sit amet consectetur. Risus et fringilla diam phasellus
-                                            cursus massa fermentum habitant.
-                                        </p>
-                                        <div class="d-flex justify-content-between ">
-                                            <p class="document-data-card-date mt-3">
-                                                28 July, 2024
-                                            </p>
-                                            <div class="dropup"> <!-- dropup ensures dropdown appears above -->
-                                                <!-- SVG Trigger -->
-                                                <img src="../../assets/svg/Vector (3).svg" alt=""
-                                                    class="dropdown-toggle" data-bs-toggle="dropdown"
-                                                    aria-expanded="false">
-
-                                                <!-- Dropdown Menu -->
-                                                <ul class="dropdown-menu document-dropdown">
-                                                    <li>
-                                                        <div class="d-flex justify-content-between">
-                                                            <p class="document-dropdown-para mt-2">
-                                                                Move to folder
-                                                            </p>
-                                                            <img src="../../assets/svg/Vector (5).svg" alt="">
-                                                        </div>
-                                                    </li>
-                                                    <hr>
-                                                    <li>
-                                                        <div class="d-flex justify-content-between">
-                                                            <p class="document-dropdown-para mt-2">
-                                                                Delete
-                                                            </p>
-                                                            <img src="../../assets/svg/Vector (6).svg" alt="">
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg docment-card ">
-                                        <div class="d-flex justify-content-between ">
-                                            <h1 class="document-data-card-heading mt-1">
-                                                AI Rewriter
-                                            </h1>
-                                            <img src="../../assets/svg/Frame 427318309.svg" alt="">
-                                        </div>
-                                        <p class="document-data-card-para">
-                                            Lorem ipsum dolor sit amet consectetur. Risus et fringilla diam phasellus
-                                            cursus massa fermentum habitant.
-                                        </p>
-                                        <div class="d-flex justify-content-between ">
-                                            <p class="document-data-card-date mt-3">
-                                                28 July, 2024
-                                            </p>
-                                            <div class="dropup"> <!-- dropup ensures dropdown appears above -->
-                                                <!-- SVG Trigger -->
-                                                <img src="../../assets/svg/Vector (3).svg" alt=""
-                                                    class="dropdown-toggle" data-bs-toggle="dropdown"
-                                                    aria-expanded="false">
-
-                                                <!-- Dropdown Menu -->
-                                                <ul class="dropdown-menu document-dropdown">
-                                                    <li>
-                                                        <div class="d-flex justify-content-between">
-                                                            <p class="document-dropdown-para mt-2">
-                                                                Move to folder
-                                                            </p>
-                                                            <img src="../../assets/svg/Vector (5).svg" alt="">
-                                                        </div>
-                                                    </li>
-                                                    <hr>
-                                                    <li>
-                                                        <div class="d-flex justify-content-between">
-                                                            <p class="document-dropdown-para mt-2">
-                                                                Delete
-                                                            </p>
-                                                            <img src="../../assets/svg/Vector (6).svg" alt="">
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg docment-card ">
-                                        <div class="d-flex justify-content-between ">
-                                            <h1 class="document-data-card-heading mt-1">
-                                                AI Rewriter
-                                            </h1>
-                                            <img src="../../assets/svg/Frame 427318309.svg" alt="">
-                                        </div>
-                                        <p class="document-data-card-para">
-                                            Lorem ipsum dolor sit amet consectetur. Risus et fringilla diam phasellus
-                                            cursus massa fermentum habitant.
-                                        </p>
-                                        <div class="d-flex justify-content-between ">
-                                            <p class="document-data-card-date mt-3">
-                                                28 July, 2024
-                                            </p>
-                                            <div class="dropup"> <!-- dropup ensures dropdown appears above -->
-                                                <!-- SVG Trigger -->
-                                                <img src="../../assets/svg/Vector (3).svg" alt=""
-                                                    class="dropdown-toggle" data-bs-toggle="dropdown"
-                                                    aria-expanded="false">
-
-                                                <!-- Dropdown Menu -->
-                                                <ul class="dropdown-menu document-dropdown">
-                                                    <li>
-                                                        <div class="d-flex justify-content-between">
-                                                            <p class="document-dropdown-para mt-2">
-                                                                Move to folder
-                                                            </p>
-                                                            <img src="../../assets/svg/Vector (5).svg" alt="">
-                                                        </div>
-                                                    </li>
-                                                    <hr>
-                                                    <li>
-                                                        <div class="d-flex justify-content-between">
-                                                            <p class="document-dropdown-para mt-2">
-                                                                Delete
-                                                            </p>
-                                                            <img src="../../assets/svg/Vector (6).svg" alt="">
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg docment-card ">
-                                        <div class="d-flex justify-content-between ">
-                                            <h1 class="document-data-card-heading mt-1">
-                                                AI Rewriter
-                                            </h1>
-                                            <img src="../../assets/svg/Frame 427318309.svg" alt="">
-                                        </div>
-                                        <p class="document-data-card-para">
-                                            Lorem ipsum dolor sit amet consectetur. Risus et fringilla diam phasellus
-                                            cursus massa fermentum habitant.
-                                        </p>
-                                        <div class="d-flex justify-content-between ">
-                                            <p class="document-data-card-date mt-3">
-                                                28 July, 2024
-                                            </p>
-                                            <div class="dropup"> <!-- dropup ensures dropdown appears above -->
-                                                <!-- SVG Trigger -->
-                                                <img src="../../assets/svg/Vector (3).svg" alt=""
-                                                    class="dropdown-toggle" data-bs-toggle="dropdown"
-                                                    aria-expanded="false">
-
-                                                <!-- Dropdown Menu -->
-                                                <ul class="dropdown-menu document-dropdown">
-                                                    <li>
-                                                        <div class="d-flex justify-content-between">
-                                                            <p class="document-dropdown-para mt-2">
-                                                                Move to folder
-                                                            </p>
-                                                            <img src="../../assets/svg/Vector (5).svg" alt="">
-                                                        </div>
-                                                    </li>
-                                                    <hr>
-                                                    <li>
-                                                        <div class="d-flex justify-content-between">
-                                                            <p class="document-dropdown-para mt-2">
-                                                                Delete
-                                                            </p>
-                                                            <img src="../../assets/svg/Vector (6).svg" alt="">
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg docment-card ">
-                                        <div class="d-flex justify-content-between ">
-                                            <h1 class="document-data-card-heading mt-1">
-                                                AI Rewriter
-                                            </h1>
-                                            <img src="../../assets/svg/Frame 427318309.svg" alt="">
-                                        </div>
-                                        <p class="document-data-card-para">
-                                            Lorem ipsum dolor sit amet consectetur. Risus et fringilla diam phasellus
-                                            cursus massa fermentum habitant.
-                                        </p>
-                                        <div class="d-flex justify-content-between ">
-                                            <p class="document-data-card-date mt-3">
-                                                28 July, 2024
-                                            </p>
-                                            <div class="dropup"> <!-- dropup ensures dropdown appears above -->
-                                                <!-- SVG Trigger -->
-                                                <img src="../../assets/svg/Vector (3).svg" alt=""
-                                                    class="dropdown-toggle" data-bs-toggle="dropdown"
-                                                    aria-expanded="false">
-
-                                                <!-- Dropdown Menu -->
-                                                <ul class="dropdown-menu document-dropdown">
-                                                    <li>
-                                                        <div class="d-flex justify-content-between">
-                                                            <p class="document-dropdown-para mt-2">
-                                                                Move to folder
-                                                            </p>
-                                                            <img src="../../assets/svg/Vector (5).svg" alt="">
-                                                        </div>
-                                                    </li>
-                                                    <hr>
-                                                    <li>
-                                                        <div class="d-flex justify-content-between">
-                                                            <p class="document-dropdown-para mt-2">
-                                                                Delete
-                                                            </p>
-                                                            <img src="../../assets/svg/Vector (6).svg" alt="">
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-
+                            <div class="col-lg docment-card ">
+                                <div class="d-flex justify-content-between ">
+                                    <h1 class="document-data-card-heading mt-1">
+                                        AI Rewriter
+                                    </h1>
+                                    <img src="../../assets/svg/Frame 427318309.svg" alt="">
                                 </div>
+                                <p class="document-data-card-para">
+                                    Lorem ipsum dolor sit amet consectetur. Risus et fringilla diam phasellus
+                                    cursus massa fermentum habitant.
+                                </p>
+                                <div class="d-flex justify-content-between ">
+                                    <p class="document-data-card-date mt-3">
+                                        28 July, 2024
+                                    </p>
+                                    <div class="dropup"> <!-- dropup ensures dropdown appears above -->
+                                        <!-- SVG Trigger -->
+                                        <img src="../../assets/svg/Vector (3).svg" alt="" class="dropdown-toggle"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
 
+                                        <!-- Dropdown Menu -->
+                                        <ul class="dropdown-menu document-dropdown">
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <p class="document-dropdown-para mt-2">
+                                                        Move to folder
+                                                    </p>
+                                                    <img src="../../assets/svg/Vector (5).svg" alt="">
+                                                </div>
+                                            </li>
+                                            <hr>
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <p class="document-dropdown-para mt-2">
+                                                        Delete
+                                                    </p>
+                                                    <img src="../../assets/svg/Vector (6).svg" alt="">
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
-                            <nav aria-label="Page navigation example  " class="mt-5 mb-5">
-                                <ul class="pagination d-flex justify-content-end  ">
-                                    <li class="page-item"><a class="page-link active" href="#">1</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">...</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">67</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">68</a></li>
-                                </ul>
-                            </nav>
+                            <div class="col-lg docment-card ">
+                                <div class="d-flex justify-content-between ">
+                                    <h1 class="document-data-card-heading mt-1">
+                                        AI Rewriter
+                                    </h1>
+                                    <img src="../../assets/svg/Frame 427318309.svg" alt="">
+                                </div>
+                                <p class="document-data-card-para">
+                                    Lorem ipsum dolor sit amet consectetur. Risus et fringilla diam phasellus
+                                    cursus massa fermentum habitant.
+                                </p>
+                                <div class="d-flex justify-content-between ">
+                                    <p class="document-data-card-date mt-3">
+                                        28 July, 2024
+                                    </p>
+                                    <div class="dropup"> <!-- dropup ensures dropdown appears above -->
+                                        <!-- SVG Trigger -->
+                                        <img src="../../assets/svg/Vector (3).svg" alt="" class="dropdown-toggle"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+
+                                        <!-- Dropdown Menu -->
+                                        <ul class="dropdown-menu document-dropdown">
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <p class="document-dropdown-para mt-2">
+                                                        Move to folder
+                                                    </p>
+                                                    <img src="../../assets/svg/Vector (5).svg" alt="">
+                                                </div>
+                                            </li>
+                                            <hr>
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <p class="document-dropdown-para mt-2">
+                                                        Delete
+                                                    </p>
+                                                    <img src="../../assets/svg/Vector (6).svg" alt="">
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg docment-card ">
+                                <div class="d-flex justify-content-between ">
+                                    <h1 class="document-data-card-heading mt-1">
+                                        AI Rewriter
+                                    </h1>
+                                    <img src="../../assets/svg/Frame 427318309.svg" alt="">
+                                </div>
+                                <p class="document-data-card-para">
+                                    Lorem ipsum dolor sit amet consectetur. Risus et fringilla diam phasellus
+                                    cursus massa fermentum habitant.
+                                </p>
+                                <div class="d-flex justify-content-between ">
+                                    <p class="document-data-card-date mt-3">
+                                        28 July, 2024
+                                    </p>
+                                    <div class="dropup"> <!-- dropup ensures dropdown appears above -->
+                                        <!-- SVG Trigger -->
+                                        <img src="../../assets/svg/Vector (3).svg" alt="" class="dropdown-toggle"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+
+                                        <!-- Dropdown Menu -->
+                                        <ul class="dropdown-menu document-dropdown">
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <p class="document-dropdown-para mt-2">
+                                                        Move to folder
+                                                    </p>
+                                                    <img src="../../assets/svg/Vector (5).svg" alt="">
+                                                </div>
+                                            </li>
+                                            <hr>
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <p class="document-dropdown-para mt-2">
+                                                        Delete
+                                                    </p>
+                                                    <img src="../../assets/svg/Vector (6).svg" alt="">
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
 
-                  
+                    </div>
+                    <nav aria-label="Page navigation example  " class="mt-5 mb-5">
+                        <ul class="pagination d-flex justify-content-end  ">
+                            <li class="page-item"><a class="page-link active" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">...</a></li>
+                            <li class="page-item"><a class="page-link" href="#">67</a></li>
+                            <li class="page-item"><a class="page-link" href="#">68</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+
 
 
 
