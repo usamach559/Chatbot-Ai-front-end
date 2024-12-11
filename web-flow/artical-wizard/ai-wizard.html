@@ -720,7 +720,7 @@
                                         <hr>
                                     </div>
                                     <div class="col-lg-4 mt-1">
-                                        <p class="hr-text" onclick="toggleSecondAdvancedOptions()">Advanced options</p>
+                                        <p class="hr-text" onclick="toggleFourthAdvancedOptions()">Advanced options</p>
                                     </div>
         
                                     <div class="col-lg-3">
@@ -728,7 +728,7 @@
                                     </div>
         
                                 </div>
-                                <div id="secondAdvancedOptions" style="display: none;">
+                                <div id="fourthAdvancedOptions" style="display: none;">
                                     <div class="form-group">
                                         <label class="wizrd-section-main-para mb-3 mt-3">
                                             Language
@@ -881,7 +881,7 @@
                                         <hr>
                                     </div>
                                     <div class="col-lg-4 mt-1">
-                                        <p class="hr-text" onclick="toggleSecondAdvancedOptions()">Advanced options</p>
+                                        <p class="hr-text" onclick="togglethirdAdvancedOptions()">Advanced options</p>
                                     </div>
         
                                     <div class="col-lg-3">
@@ -889,7 +889,7 @@
                                     </div>
         
                                 </div>
-                                <div id="secondAdvancedOptions" style="display: none;">
+                                <div id="thirdAdvancedOptions" style="display: none;">
                                     <div class="form-group">
                                         <label class="wizrd-section-main-para mb-3 mt-3">
                                             Language
@@ -1145,6 +1145,32 @@ function toggleSecondAdvancedOptions() {
         secondAdvancedOptions.style.display = 'none'; // Hide the div
     }
 }
+function togglethirdAdvancedOptions() {
+    const thirdAdvancedOptions = document.getElementById('thirdAdvancedOptions');
+    if (thirdAdvancedOptions.style.display === 'none' || thirdAdvancedOptions.style.display === '') {
+        thirdAdvancedOptions.style.display = 'block'; // Show the div
+    } else {
+        thirdAdvancedOptions.style.display = 'none'; // Hide the div
+    }
+}
+function togglethirdAdvancedOptions() {
+    const thirdAdvancedOptions = document.getElementById('thirdAdvancedOptions');
+    if (thirdAdvancedOptions.style.display === 'none' || thirdAdvancedOptions.style.display === '') {
+        thirdAdvancedOptions.style.display = 'block'; // Show the div
+    } else {
+        thirdAdvancedOptions.style.display = 'none'; // Hide the div
+    }
+}
+function toggleFourthAdvancedOptions() {
+    const fourthAdvancedOptions = document.getElementById('fourthAdvancedOptions');
+    if (fourthAdvancedOptions.style.display === 'none' || fourthAdvancedOptions.style.display === '') {
+        fourthAdvancedOptions.style.display = 'block'; // Show the div
+    } else {
+        fourthAdvancedOptions.style.display = 'none'; // Hide the div
+    }
+}
+
+
 
     </script>
 
