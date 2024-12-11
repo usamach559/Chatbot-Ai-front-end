@@ -2515,6 +2515,16 @@ span {
 
 .post-url-container {
     background-color: #8280FF;
+    /* padding: 5px; */
+    max-width: 300px;
+    width: 100%;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.post-url-container {
+    background-color: #8280FF;
     padding: 5px;
     max-width: 300px;
     width: 100%;
@@ -2527,10 +2537,10 @@ span {
 .post-url-input {
     flex-grow: 1;
     border: none;
-    background: none;
+    background-color: transparent !important;
     color: white;
     padding: 5px 10px;
-    padding-right: 60px;
+    padding-right: 70px;
     /* Space for the "Analyze" button */
     border-radius: 24px;
     font-family: 'Poppins-Regular';
@@ -2539,7 +2549,7 @@ span {
     line-height: 18px;
     text-align: left;
     outline: none;
-    color: white;
+    color: white !important;
 }
 
 .post-url-input::placeholder {
