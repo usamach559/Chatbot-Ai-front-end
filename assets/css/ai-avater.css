@@ -1277,7 +1277,7 @@ input[type="file"]::file-selector-button {
 }
 
 @media (max-width: 1196px) {
-    table {
+    .manage-table table {
         display: block;
         /* Enables block display for scroll */
         overflow-x: auto !important;
@@ -1300,6 +1300,7 @@ input[type="file"]::file-selector-button {
         /* Center align buttons */
     }
 }
+
 
 
 
