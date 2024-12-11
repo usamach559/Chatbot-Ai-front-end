@@ -1254,6 +1254,7 @@ input[type="file"]::file-selector-button {
     background-color: rgba(235, 246, 255, 1) !important;
     border-radius: 24px;
     border: 1px solid rgba(93, 185, 255, 1);
+    display: block;
 }
 
 .document-date {
@@ -1276,23 +1277,24 @@ input[type="file"]::file-selector-button {
 
 @media (max-width: 1196px) {
     table {
-        display: block;
-        overflow-x: auto;
-        width: fit-content !important;
-
+        display: block; /* Enables block display for scroll */
+        overflow-x: auto !important; /* Adds horizontal scrolling */
+        width: 100%; /* Keeps the table responsive and full-width */
+        border-collapse: collapse;
     }
 
-    th,
-    td {
-
-        padding: 8px 12px;
+    th, td {
+        padding: 8px 12px; /* Maintain consistent padding */
+        white-space: nowrap;
     }
 
     td .btn {
         margin: 0 auto;
-        display: block;
+        display: flex; /* Center align buttons */
     }
 }
+
+
 
 .docoment-modal {
     padding: 5px;
