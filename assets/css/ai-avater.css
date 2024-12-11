@@ -1228,6 +1228,7 @@ input[type="file"]::file-selector-button {
     line-height: 22px;
     text-align: left;
 }
+
 .grammar-document-chat-traning {
     font-family: 'Poppins-Regular';
     font-size: 14px;
@@ -1277,20 +1278,26 @@ input[type="file"]::file-selector-button {
 
 @media (max-width: 1196px) {
     table {
-        display: block; /* Enables block display for scroll */
-        overflow-x: auto !important; /* Adds horizontal scrolling */
-        width: 100%; /* Keeps the table responsive and full-width */
+        display: block;
+        /* Enables block display for scroll */
+        overflow-x: auto !important;
+        /* Adds horizontal scrolling */
+        width: 100%;
+        /* Keeps the table responsive and full-width */
         border-collapse: collapse;
     }
 
-    th, td {
-        padding: 8px 12px; /* Maintain consistent padding */
+    th,
+    td {
+        padding: 8px 12px;
+        /* Maintain consistent padding */
         white-space: nowrap;
     }
 
     td .btn {
         margin: 0 auto;
-        display: flex; /* Center align buttons */
+        display: flex;
+        /* Center align buttons */
     }
 }
 
@@ -1594,6 +1601,7 @@ tbody tr:last-of-type td:last-child {
     text-align: left;
     color: rgba(0, 122, 255, 1) !important;
 }
+
 .first-code-heading-second {
     font-family: 'Poppins-Regular';
     font-size: 14px;
@@ -2038,10 +2046,9 @@ tbody tr:last-of-type td:last-child {
     background-color: transparent !important;
     border-radius: 24px;
     border: 1px solid white;
-   
-    &
-     {
-        padding-right: 60px ;
+
+    & {
+        padding-right: 60px;
         padding-left: 20px;
     }
 }
@@ -3655,8 +3662,8 @@ input::placeholder {
     background: linear-gradient(135deg, rgba(130, 128, 255, 0.35) 0%, rgba(130, 128, 255, 0.14) 100%);
     padding: 0px 10px;
     border-radius: 24px;
-   max-width: 190px !important;
-   width: 100%;
+    max-width: 190px !important;
+    width: 100%;
 
 }
 
@@ -3697,17 +3704,34 @@ input::placeholder {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: White;
-    
+
 
 }
-.document-card-short-back-icon-container{
+
+.document-card-short-back-icon-container {
     background-color: white;
     padding: 10px 10px;
     border-radius: 24px;
     width: 80px;
     height: 70px;
 }
-.docment-left-arrow-icon{
+
+.docment-left-arrow-icon {
     color: black;
     font-size: 28px;
+}
+
+.second-icon-brand-template {
+    font-size: 26px;
+}
+
+.second-icon-brand-template-container {
+    background-color: white !important;
+    /* padding: 10px; */
+    width: 40px;
+    height: 40px;
+    border-radius: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
