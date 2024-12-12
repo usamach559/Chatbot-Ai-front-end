@@ -2561,16 +2561,16 @@ span {
     text-align: center;
 }
 
-.post-url-container {
+/* .post-url-container {
     background-color: #8280FF;
-    /* padding: 5px; */
+    padding: 5px;
     max-width: 300px;
     width: 100%;
     border-radius: 24px;
     display: flex;
     align-items: center;
     position: relative;
-}
+} */
 .post-url-container {
     background-color: #8280FF;
     padding: 5px;
@@ -2587,8 +2587,8 @@ span {
     border: none;
     background-color: transparent !important;
     color: white;
-    padding: 5px 10px;
-    padding-right: 70px;
+    padding: 5px 5px;
+    padding-right: 65px;
     /* Space for the "Analyze" button */
     border-radius: 24px;
     font-family: 'Poppins-Regular';
@@ -2606,11 +2606,11 @@ span {
 
 .post-url-analyze-web-chat {
     position: absolute;
-    right: 10px;
+    right: 4px;
     top: 50%;
     transform: translateY(-50%);
     border: 1px solid white;
-    padding: 5px 10px;
+    padding: 5px 5px;
     border-radius: 24px;
     font-family: 'Poppins-Regular';
     font-size: 12px;
